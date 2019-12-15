@@ -1,0 +1,1119 @@
+0,1,2,3,4
+GMT,CREW,ACTIVITY,,
+06:00-06:10,"CDR,FE-3",Morning Inspection,,
+06:00-06:05,FE-2,SLEEP Data Log Entry,,
+06:00-06:05,FE-4,PRO K Urine PH Test,,
+06:00-06:20,FE-6 subject,HRF Urine Sample Collection,,
+06:00-06:05,FE-5,Elektron-VM Aerosol Filter Inspection,,
+06:05-06:15,"FE-2,FE-5",Morning Inspection,,
+06:05-06:10,FE-4,SLEEP Data Log Entry,,
+06:10-06:20,FE-4,Morning Inspection,,
+06:10-06:40,"CDR,FE-3",Post-sleep,,
+06:15-06:45,"FE-2,FE-5",Post-sleep,,
+06:20-06:50,FE-4,Post-sleep,,
+06:20-06:25,FE-6,PRO K Urine PH Test,,
+06:25-06:35,FE-6,HRF Urine Sample Insertion Into MELFI,,
+06:35-06:40,FE-6,SLEEP Data Log Entry,,
+06:40-06:50,FE-6,Morning Inspection,,
+06:40-07:30,"CDR,FE-3",BREAKFAST,,
+06:45-07:35,"FE-2,FE-5",BREAKFAST,,
+06:50-07:20,FE-6,Post-sleep,,
+06:50-07:40,FE-4,BREAKFAST,,
+07:20-08:10,FE-6,BREAKFAST,,
+09:00-10:00,FE-2,Physical Exercise T 2,,
+09:00-10:00,CDR,Physical Exercise (ARED),,
+09:30-11:00,FE-5,"Physical Exercise (TVIS), Day  3",,
+10:00-11:30,FE-2,Physical Exercise (ARED),,
+10:30-11:30,FE-6,Physical Exercise T 2,,
+11:00-12:00,FE-5,"Physical Exercise (VELO), Day  3",,
+11:30-13:00,FE-6,Physical Exercise (ARED),,
+12:00-13:00,FE-3,"Physical Exercise (VELO), Day  3",,
+12:45-13:00,FE-5,"Private Family Conference (S+Ku-band) (SG2, SG1-backup)",,
+13:00-14:00,.,LUNCH,,
+14:00-14:05,FE-4,PROK Diet Logging (Day 2-4),,
+14:00-14:40,CDR,"СОЖ Maintenance. SM and FGB Flush Counter (СП), Water SupplySystem (СВО), Potok Air Purification System Data Calldowns",,
+14:00-14:05,FE-6,PROK Diet Logging (Day 2-4),,
+14:05-14:25,FE-6 subject,HRF Urine Sample Collection,,
+14:25-14:30,FE-6,HRF Urine Sample Insertion Into MELFI,,
+15:30-17:00,CDR,"Physical Exercise (TVIS), Day  2",,
+15:40-16:00,FE-4,Urine Sampling Kit Prep,,
+16:00-17:30,FE-4,Physical Exercise (ARED),,
+17:00-18:30,FE-3,"Physical Exercise (TVIS), Day  3",,
+17:30-18:30,FE-4,Physical Exercise T 2,,
+GMT,,CREW,,ACTIVITY
+06:00-06:05,,CDR,,Elektron-VM Aerosol Filter Inspection
+06:00-07:30,,"FE-2,FE-3,FE-4,FE-5,FE-6",,Post-sleep
+06:05-07:30,,CDR,,Post-sleep
+07:30-10:30,,"CDR,FE-3,FE-5",,"Weekly Housekeeping. SM Ventilation System Preventive MaintenanceGroup E, Cleaning FGB ЦВ2"
+08:00-09:00,,FE-2,,Physical Exercise (CEVIS)
+09:00-09:10,,FE-2,,Setting up video equipment to film ARED exercise
+09:00-09:05,,FE-4,,HAM Radio Power Up
+09:05-09:10,,FE-4,,HAM Radio Setup
+09:10-10:40,,FE-2,,Physical Exercise (ARED)
+09:10-09:25,,FE-4,,HAM Radio Session
+09:25-10:25,,FE-4,,Physical Exercise T 2
+10:25-11:25,,FE-6,,Physical Exercise T 2
+10:40-11:40,,FE-3,,Physical Exercise (ARED)
+10:40-11:00,,FE-2,,Start BSA Battery Charge
+11:00-11:15,,CDR,,Private Family Conference (Ku+S-band)
+11:25-11:35,,FE-6,,T2 Snubber Arm Inspection
+11:40-13:10,,FE-3,,"Physical Exercise (TVIS), Day  1"
+11:40-13:10,,FE-4,,Physical Exercise (ARED)
+12:10-13:10,,CDR,,"Physical Exercise (VELO), Day  4"
+13:10-14:10,,.,,LUNCH
+14:10-14:25,,FE-4,,Private Family Conference
+14:10-14:30,,FE-6,,Water Recovery System (WRS)
+14:10-14:50,,CDR,,"СОЖ Maintenance. SM and FGB СП (Flush Counter), Water SupplySystem (СВО), and POTOK Air Purification System Data Calldown.Inspection of СРВ-К2М hoses from МФР up to БРПК separator"
+14:15-14:45,,FE-2,,EVA Water Refill
+14:25-15:25,,FE-4,,US EVA Tool Preparation
+14:45-14:50,,FE-2,,Post-EVA Airlock Reconfig
+15:10-15:20,,FE-6,,Water Recovery System (WRS)
+15:10-15:25,,FE-2,,Private Family Conference
+15:30-17:00,,CDR,,"Physical Exercise (TVIS), Day  4"
+15:45-16:45,,"FE-2,FE-4,FE-6",,EVA Debrief
+16:00-17:00,,FE-5,,Physical Exercise (ARED)
+16:45-16:50,,FE-2,,Stow Video Equipment Used for ARED Exercise Video
+17:00-18:30,,FE-5,,"Physical Exercise (TVIS), Day  1"
+17:10-17:25,,FE-6,,Private Family Conference
+17:25-18:55,,FE-6,,Physical Exercise (ARED)
+18:10-19:00,,CDR,,Evening Work Prep
+18:15-19:05,,"FE-2,FE-3,FE-4",,Evening Work Prep
+GMT,,CREW,,ACTIVITY
+06:00-06:05,,"CDR,FE-5",,Morning Inspection
+06:00-06:20,,FE-2,,HRF Urine Sample Collection Subject
+06:00-06:05,,FE-3,,Elektron-VM Aerosol Filter Inspection
+06:00-06:05,,"FE-4, FE-6",,PROK- PH Urine Test
+06:05-06:35,,CDR,,Post-sleep
+06:05-06:15,,FE-3,,МО-8. Setup
+06:05-06:10,,FE-4,,REACTION Self Test
+06:05-06:25,,FE-5,,Post-sleep
+06:05-06:10,,FE-6,,SLEEP Data Log Entry
+06:10-06:15,,FE-4,,SLEEP Data Log Entry
+06:10-06:30,,FE-6,,Post-sleep
+06:15-06:20,,FE-3,,Body Mass Measurement
+06:15-06:20,,FE-4,,Post-sleep
+06:20-06:25,,FE-2,,PROK- PH Urine Test
+06:20-06:50,,FE-3,,Post-sleep
+06:20-06:25,,FE-4,,Body Mass Measurement
+06:25-06:35,,FE-2,,HRF Urine Sample Insertion Into MELFI
+06:25-06:45,,FE-4,,Post-sleep
+06:25-06:30,,FE-5,,Body Mass Measurement
+06:30-06:40,,FE-5,,Post-sleep
+06:30-06:35,,FE-6,,Body Mass Measurement
+06:35-06:40,,FE-2,,SLEEP Data Log Entry
+06:35-07:30,,FE-6,,BREAKFAST
+06:35-06:40,,CDR,,Body Mass Measurement
+06:40-07:30,,"CDR, FE-5",,BREAKFAST
+06:40-06:45,,FE-2,,REACTION Self Test
+06:45-06:50,,FE-2,,Body Mass Measurement
+06:45-07:30,,FE-4,,BREAKFAST
+06:50-07:30,,FE-2,,Post-sleep
+06:50-07:00,,FE-3,,MO-8. Cleanup
+07:00-07:40,,FE-3,,BREAKFAST
+07:30-07:40,,"CDR, FE-2,FE-4, FE-5,FE-6",,Work Prep
+07:40-08:05,,,,Daily Planning Conference (S-band)
+08:05-08:20,,,,ISS Crew and ГОГУ (RSA Flight Control Team Management) Weekly Conference(S-band)
+08:20-09:20,,FE-2,,Inspection of Node 2 Emergency Light Power Supply (ELPS) 1
+08:20-08:50,,FE-4,,CMO Proficiency Training
+08:20-08:25,,FE-6,,Bioprocessor and CGBA 5 Status Check
+GMT,,CREW,,ACTIVITY
+06:00-07:30,,"CDR, FE-3",,Post-sleep
+06:00-06:05,,FE-5,,Elektron-VM Aerosol Filter Inspection
+06:05-07:05,,FE-5,,Post-sleep
+07:15-07:30,,FE-5,,Post-sleep
+07:30-07:40,,"CDR, FE-3",,Work Prep
+07:30-07:40,,"CDR, FE-3",,Work Prep
+07:40-08:05,,,,Daily Planning Conference (S-band)
+08:45-10:15,,FE-3,,Stowing disposal hardware in Progress 406 and IMS updates
+08:45-10:00,,FE-5,,PNEUMOCARD  Experiment
+08:55-11:20,,CDR,,Relocate RS Equipment from Unauthorized FGB Stowage Locations
+10:00-11:00,,FE-5,,"Physical Exercise (VELO), Day  3"
+10:15-11:45,,FE-3,,"Physical Exercise (TVIS), Day  3"
+11:00-13:00,,FE-5,,Changeout of Replaceable Condensate Removal Lines [СМОК]
+11:20-11:30,,CDR,,RUSALKA Hardware setup for observation using bracket / r/g
+11:45-12:40,,FE-3,,MATRYOSHKA-R. BUBBLE-Dosimeter Retrieval And Readout
+12:10-12:30,,CDR,,"RUSALKA Closeout Ops, Data Copy"
+12:30-12:40,,CDR,,RUSALKA Hardware Removal
+13:00-14:00,,"CDR, FE-3, FE-5",,LUNCH
+14:00-14:40,,CDR,,СОЖ Maintenance
+14:00-15:30,,FE-3,,Stowing disposal hardware in Progress 406 and IMS updates
+14:00-16:00,,FE-5,,Changeout of Replaceable Condensate Removal Lines [СМОК]
+14:45-15:00,,CDR,,RUSALKA Terminate Data Copy and Downlink via OCA
+15:10-16:40,,CDR,,"Physical Exercise (TVIS), Day  2"
+16:30-16:40,,FE-3,,Set Up Video Equipment to Film ARED Exercise
+16:30-16:50,,FE-5,,IMS Update
+16:40-17:40,,CDR,,"Physical Exercise (VELO), Day  2"
+16:40-17:05,,FE-3,,Evening Work Prep
+16:50-17:50,,FE-5,,Physical Exercise (ARED)
+17:50-18:50,,FE-3,,Physical Exercise (ARED)
+17:50-18:15,,FE-5,,Evening Work Prep
+18:15-18:50,,FE-5,,Pre-sleep
+18:50-18:55,,FE-3,,Stow Video Equipment Used for ARED Exercise Video
+18:50-18:55,,FE-5,,Elektron-VM Aerosol Filter Inspection
+18:55-19:20,,,,Daily Planning Conference Russian Equipment Relocation from FGB ZoneReport (S-band)
+19:20-19:40,,FE-5,,Pre-sleep
+19:20-19:30,,CDR,,Evening Work Prep
+19:20-21:30,,FE-3,,Pre-sleep
+19:35-21:30,,CDR,,Pre-sleep
+GMT,CREW,ACTIVITY,,
+06:00-06:10,CDR,Morning Inspection,,
+06:00-06:05,"FE-2, FE-4",REACTION Self Test,,
+06:00-06:10,"FE-3, FE-5",Morning Inspection,,
+06:00-06:05,FE-6,ICV Battery Replacement,,
+06:05-06:10,"FE-2, FE-4",Morning Inspection,,
+06:05-06:15,FE-6,ICV 10-minute Resting Event,,
+06:10-06:40,"CDR, FE-2,FE-3, FE-4,FE-5",Post-sleep,,
+06:15-06:40,FE-6,Post-sleep,,
+06:40-07:30,,BREAKFAST,,
+07:30-10:30,"CDR, FE-3,FE-5","Weekly HousekeepingSM Ventilation System Preventive Maintenance Group E, FGB ЦВ2 FanCleaning",,
+07:30-10:30,"FE-2, FE-4,FE-6",Weekly Housekeeping,,
+10:30-10:35,FE-6,ICV Battery Replacement,,
+10:30-12:00,CDR,"Physical Exercise (TVIS), Day  4",,
+10:30-11:30,FE-2,Physical Exercise (CEVIS),,
+10:30-10:35,FE-4,OCA SSC Router Reboot,,
+10:35-10:40,FE-4,SSC File Server Reboot,,
+10:55-11:00,FE-4,ISS File Server Reboot,,
+11:30-13:00,FE-2,Physical Exercise (ARED),,
+12:00-13:00,FE-3,"Physical Exercise (VELO), Day  1",,
+13:00-13:30,,Weekly Planning Conference,,
+13:30-13:35,FE-3,On MCC Go ISS О2 repress from Progress 406 СрПК (start),,
+13:30-13:35,FE-6,ICV Battery Replacement,,
+13:35-14:35,,LUNCH,,
+14:35-14:40,FE-3,ISS О2 repress from Progress 406 СрПК (terminate),,
+14:35-14:45,FE-5,Pre-filter cleaning in POTOK-150МК Air Purification System in SM and FGB(Use vacuum cleaner equipped with narrow nozzle attachment; POTOKunit should be powered down),,
+14:35-15:05,CDR,"Replacement of urine receptacle [МП] and filter-insert [Ф-В] in the toilet [АСУ]Install Urine Receptacle М-П #0890235 (00049079R, СМ1РО_138_1 ), FilterInsert Ф-В #906153 (СМ1РО_138_1 pouch 0570069). Discard the removedequipment to Progress 406.Update IMS",,
+14:45-15:00,FE-3,Private Family Conference (Ku+S-band),,
+15:05-15:25,CDR,"Replacement of air filter in АСУ. Install 0560187 (00043638R,СМ1РО_138_1).Removed unit - for disposal in Progress 406.  Update IMS",,
+15:20-16:00,FE-5,СОЖ Maintenance,,
+15:30-16:30,CDR,Physical Exercise (ARED),,
+16:00-17:30,FE-3,"Physical Exercise (TVIS), Day  1",,
+GMT,,CREW,,ACTIVITY
+06:00-06:10,,CDR,,Morning Inspection. Inspection of СМ-У connector on МНР-НС pumpbehind АСУ panel 139.
+06:00-06:10,,FE-3,,Morning Inspection
+06:00-06:05,,FE-5,,Elektron-VM Aerosol Filter Inspection
+06:05-06:10,,FE-5,,Morning Inspection
+06:10-06:40,,"CDR,FE-3,FE-5",,Post-sleep
+06:40-07:25,,CDR,,BREAKFAST
+06:40-07:30,,FE-3,,BREAKFAST
+06:40-07:05,,FE-5,,BREAKFAST
+07:15-07:30,,FE-5,,BREAKFAST
+07:30-07:55,,.,,Daily Planning Conference (S-band)
+07:55-08:10,,FE-5,,Work Prep
+07:55-08:15,,"CDR,FE-3",,Work Prep
+08:10-08:20,,FE-5,,ГФИ-1 [Geophysical Studies]. Start SONY DCR-TRV900E CamcorderBattery Charge
+08:15-08:30,,CDR,,On MCC GO БМП Ф2 Absorption Cartridge Regeneration (start)
+08:20-09:20,,FE-5,,SM Ventilation System Preventive Maintenance. Group А
+08:30-10:30,,CDR,,Transferring Russian Items from FGB Unauthorized Stowage Locations
+08:30-09:30,,FE-3,,"Physical Exercise (VELO), Day 2"
+09:20-10:50,,FE-5,,"Physical Exercise (TVIS), Day 2"
+09:30-10:00,,FE-3,,RUSALKA Hardware setup for observation using bracket
+10:20-10:40,,FE-3,,"RUSALKA. Closeout Ops, Data Copy"
+10:30-12:00,,CDR,,"Physical Exercise (TVIS), Day 1"
+10:40-10:50,,FE-3,,RUSALKA Hardware Removal
+11:00-11:40,,FE-5,,Auxiliary Laptop Anti-Virus Update
+11:25-11:40,,FE-3,,RUSALKA Terminate Data Copy and Downlink via OCA
+11:40-13:10,,FE-3,,"Physical Exercise (TVIS), Day 2"
+12:15-13:15,,FE-5,,Physical Exercise (ARED)
+12:25-13:05,,CDR,,СОЖ Maintenance
+13:15-14:15,,.,,LUNCH
+14:15-14:30,,FE-5,,ИК0501 Gas Analyzer О2 Sensor Adjustment
+14:15-14:45,,CDR,,Clean FGB ЦВ1 Fan Guard Screen
+14:30-15:30,,FE-5,,RELAXATION Hardware Setup. Tagup with specialists
+14:45-15:35,,CDR,,"Replacing ПФ1, ПФ2 Dust Filters and Cleaning В1, В2 Fan Grills inDC1 (ФГБ1ПГО_2_224_1, bag 402-14 or 405-33)"
+15:30-16:00,,FE-5,,RELAXATION Setting Up Hardware
+15:35-16:25,,CDR,,"Replacing ПФ1, ПФ2 Dust Filters and Cleaning В1, В2 Fan Grills inMRM2. (ФГБ1ПГО_2_224_1, bag 402-14 or 405-33)"
+16:00-16:20,,FE-5,,RELAXATION Observation
+16:20-17:00,,FE-5,,RELAXATION Closeout and hardware stow
+GMT,,CREW,,ACTIVITY
+06:00-06:25,,FE-5,,Post-sleep
+06:00-06:05,,CDR,,Elektron-VM Aerosol Filter Inspection
+06:00-06:40,,FE-3,,Post-sleep
+06:05-06:10,,CDR,,Post-sleep
+06:10-06:25,,CDR,,Biochemical Urine Test
+06:25-06:40,,FE-5,,Biochemical Urine Test
+06:25-07:30,,CDR,,Post-sleep
+06:40-07:30,,FE-5,,Post-sleep
+06:40-06:55,,FE-3,,Biochemical Urine Test
+06:55-07:05,,FE-3,,Stowing URISIS Hardware
+07:05-07:30,,FE-3,,Post-sleep
+07:30-07:50,,,,Work Prep
+07:50-08:15,,,,Daily Planning Conference (S-band)
+08:15-08:30,,CDR,,On MCC GO БМП Ф1 Absorption Cartridge Regeneration (start)
+08:25-11:25,,FE-5,,"АСН-М НПМ Modules 1,2,3,4 Reconfiguration"
+08:25-08:35,,FE-3,,BAR. Terminate Pyren Charge
+08:35-11:05,,"CDR, FE-3",,BAR Experiment Ops
+11:25-12:05,,CDR,,"Maintenance activation of Atmosphere Purification System Emergency VacuumValves [АВК СОА] from the Spare Part Kit (b/c 004173, СМ1РО_3_321_1; bagS/N 11-1/256-1; yellow АВК cover b/c 007223R)"
+11:35-13:05,,FE-3,,"Physical Exercise (TVIS), Day  3"
+11:45-12:05,,FE-5,,"Maintenance activation of Atmosphere Purification System Emergency VacuumValves [АВК СОА] from the Spare Part Kit (b/c 004173, СМ1РО_3_321_1; bagS/N 11-1/256-1; yellow АВК cover b/c 007223R)"
+12:05-13:05,,CDR,,Physical Exercise (ARED)
+12:05-13:05,,FE-5,,"Physical Exercise (VELO), Day  3"
+13:05-14:05,,,,LUNCH
+14:05-14:45,,FE-3,,СОЖ maintenance
+14:05-16:05,,FE-5,,"АСН-М НПМ Modules 1,2,3,4 Reconfiguration"
+14:50-16:20,,CDR,,Life on the Station Photo and Video
+16:05-17:35,,FE-5,,"Physical Exercise (VELO), Day  3"
+16:40-17:40,,FE-3,,"Physical Exercise (VELO), Day  3"
+16:50-17:05,,CDR,,Private Medical Conference (Ku+S-band)
+17:05-17:25,,CDR,,IMS Update
+17:25-17:30,,CDR,,Elektron-VM Aerosol Filter Inspection
+17:30-19:00,,CDR,,"Physical Exercise (TVIS), Day  2"
+17:35-18:05,,FE-5,,On MCC GO  Pressurizing Spare Elektron-VM Liquid Unit #056
+17:40-17:55,,FE-3,,Private Medical Conference (Ku+S-band)
+18:05-18:20,,FE-5,,Private Medical Conference (Ku+S-band)
+18:20-19:10,,FE-3,,Evening Work Prep
+GMT,,CREW,,ACTIVITY
+06:00-06:05,,CDR,,Elektron-VM Aerosol Filter Inspection
+06:00-06:05,,"FE-2,FE-4",,REACTION Self Test
+06:00-06:10,,"FE-3,FE-5",,Morning Inspection
+06:00-06:20,,FE-6,,HRF Urine Sample Collection Subject
+06:05-06:10,,CDR,,Morning Inspection. Inspection of СМ-У connector on МНР-НС pumpbehind АСУ panel 139.
+06:05-06:10,,FE-2,,Morning Inspection
+06:05-06:25,,FE-4,,HRF Urine Sample Collection Subject
+06:10-06:40,,"CDR,FE-2,FE-3,FE-5",,Post-sleep
+06:20-06:25,,"FE-4,FE-6",,PROK- PH Urine Test
+06:25-06:30,,FE-6,,PRO К Photography
+06:30-06:35,,"FE-4,FE-6",,HRF Urine Sample Insertion Into MELFI
+06:35-06:45,,FE-6,,HRF Refrigerated Centrifuge Setup
+06:40-07:00,,FE-4,,Post-sleep
+06:40-07:30,,"CDR,FE-2,FE-5",,BREAKFAST
+06:40-06:45,,FE-3,,BREAKFAST
+06:45-07:00,,FE-3 operator,,HRF Blood Sample Draw
+06:45-07:05,,FE-6 subject,,HRF Blood Sample Draw
+07:00-07:30,,FE-4,,BREAKFAST
+07:00-07:30,,FE-3,,BREAKFAST
+07:05-07:10,,FE-6,,SLEEP Data Log Entry
+07:10-07:15,,FE-6,,Post-sleep
+07:15-07:25,,FE-6,,HRF Refrigerated Centrifuge Configuration
+07:25-07:30,,FE-6,,Post-sleep
+07:30-07:55,,.,,Daily Planning Conference (S-band)
+07:55-08:15,,"CDR,FE-2,FE-5",,Work Prep
+07:55-08:10,,FE-3,,BREAKFAST
+07:55-08:15,,FE-4,,BREAKFAST
+07:55-08:00,,FE-6,,HRF Refrigerated Centrifuge Closeout
+08:00-08:10,,FE-6,,HRF Blood Sample Insertion into MELFI
+08:10-08:30,,FE-3,,Work Prep
+08:10-08:30,,FE-6,,BREAKFAST
+08:15-08:30,,FE-2,,FIR Photo/Video Setup
+08:15-08:20,,FE-4,,Columbus VCA1 Setup
+08:15-08:55,,FE-5,,Auxiliary Laptop Computer System Anti-Virus Update. Tagup withspecialists (S-band)
+08:20-08:45,,FE-4,,FSL-VMU HW Downgrade
+08:30-08:45,,FE-2,,FIR Rack Doors Open
+08:30-08:45,,FE-6,,"MSG - daily startup of the SAME experiment, steps 1-2"
+08:45-08:50,,FE-2,,Light Microscopy Module (LMM) Rotation to Service Position
+GMT,,CREW,,ACTIVITY
+06:00-06:10,,CDR,,SONOCARD Experiment Termination
+06:00-06:10,,FE-2,,Vascular Crew Blood Sample Draw
+06:00-06:10,,FE-3,,Vascular Blood Draw Operator
+06:00-06:10,,"FE-4, FE-5,FE-6",,Morning Inspection
+06:10-06:15,,CDR,,Morning Inspection
+06:10-06:30,,FE-2,,VASC - Blood Sample Insertion into Centrifuge & Configuration
+06:10-06:15,,FE-3,,Elektron-VM Aerosol Filter Inspection
+06:10-06:40,,"FE-4, FE-5,FE-6",,Post-sleep
+06:15-06:40,,CDR,,Post-sleep
+06:15-06:20,,FE-3,,Morning Inspection
+06:20-06:40,,FE-3,,Post-sleep
+06:30-07:00,,FE-2,,Post-sleep
+06:40-07:30,,"CDR, FE-4,FE-5, FE-6",,BREAKFAST
+06:40-07:05,,FE-3,,BREAKFAST
+07:00-07:05,,FE-2,,Removal of Blood Samples from Centrifuge
+07:05-07:15,,FE-2,,VASC - Sample Insertion into Refrigerated Centrifuge and Closeout Ops
+07:05-07:15,,FE-3,,Vascular Experiment Photography
+07:15-07:30,,"FE-2, FE-3",,BREAKFAST
+07:30-07:55,,,,Daily Planning Conference (S-band)
+07:55-08:05,,"CDR, FE-3,FE-4, FE-5,FE-6",,Work Prep
+07:55-08:05,,FE-2,,BREAKFAST
+08:05-08:10,,,,ISS Emergency OBT Prep
+08:10-08:25,,,,Columbus Ammonia Leak OBT Refresher (S-band)
+08:25-08:45,,,,MRM2 Emergency Fire Drill (S-band)
+08:45-08:50,,,,ISS Emergency Review (S-band)
+08:50-09:10,,"FE-4, FE-5",,Work Prep
+08:50-09:50,,FE-6,,Physical Exercise T 2
+08:50-08:55,,CDR,,Work Prep
+08:50-09:00,,FE-2,,ARED Exercise Video Setup
+08:50-09:50,,FE-3,,"Physical Exercise (VELO), Day  3"
+08:55-09:10,,CDR,,SONOCARD Copy Data to RSE-MED Laptop
+09:00-09:40,,FE-2,,BREAKFAST
+09:10-09:40,,CDR,,TVIS Troubleshooting
+09:10-09:40,,FE-5,,SOLO - Food Container Removal from MRM
+09:50-10:00,,,,Joint RS/USOS Emergency Response Drill Conference (S-band)
+10:00-13:00,,CDR,,TVIS Troubleshooting
+GMT,,CREW,,ACTIVITY
+06:00-06:05,,CDR,,Elektron-VM Aerosol Filter Inspection
+06:00-06:10,,"FE-3, FE-5",,Morning Inspection
+06:05-06:10,,CDR,,Morning Inspection
+06:10-06:40,,"CDR, FE-3,FE-5",,Post-sleep
+06:40-07:40,,FE-5,,BREAKFAST
+06:40-07:30,,"CDR, FE-3",,BREAKFAST
+07:30-07:50,,FE-3,,Work Prep
+07:35-07:50,,CDR,,Work Prep
+07:40-07:50,,FE-5,,Work Prep
+07:50-08:15,,"CDR, FE-3,FE-5",,Daily Planning Conference (S-band)
+08:15-09:15,,CDR,,Stowing disposal hardware in Progress 406 and IMS updates
+08:15-10:15,,FE-5,,Changeout of Replaceable Condensate Removal Lines [СМОК]
+08:15-09:15,,FE-3,,Life On The Station Photo and Video
+09:15-10:45,,FE-3,,"Physical Exercise (TVIS), Day 2"
+09:30-10:30,,CDR,,"Physical Exercise (VELO), Day 1"
+10:30-12:10,,CDR,,Audit of RS Light Fixtures [СД]. Checking lights and power supplies
+10:45-12:50,,FE-3,,Stowing disposal hardware in Progress 406 and IMS updates
+12:10-12:50,,CDR,,СОЖ Maintenance
+12:50-13:50,,"CDR, FE-3,FE-5",,LUNCH
+13:50-15:50,,FE-5,,Changeout of Replaceable Condensate Removal Lines [СМОК]
+13:50-15:20,,FE-3,,Relocate RS Equipment from Unauthorized FGB stowage locations
+14:25-14:55,,CDR,,SEINER Ocean Observations
+15:05-16:35,,CDR,,"Physical Exercise (TVIS), Day 1"
+15:50-16:50,,FE-5,,Physical Exercise (ARED)
+16:05-17:00,,FE-3,,Stowing disposal hardware in Progress 406 and IMS updates
+16:35-18:55,,CDR,,Audit of RS Light Fixtures [СД]. Checking lights and power supplies
+16:50-18:20,,FE-5,,"Physical Exercise (TVIS), Day  2"
+17:00-17:20,,FE-3,,IMS Update
+17:20-18:20,,FE-3,,Physical Exercise (ARED)
+18:20-18:55,,FE-5,,"ASEPTIC Retrieve Samples from thermostatic container, photograph, and stow"
+18:20-18:55,,FE-3,,Photo/Video Chronicle of ISS Payloads
+18:55-19:20,,"CDR, FE-3,FE-5",,Daily Planning Conference (S-band)
+19:20-19:25,,CDR,,Elektron-VM Aerosol Filter Inspection
+19:20-19:30,,"FE-3, FE-5",,Evening Work Prep
+19:30-21:30,,"FE-3, FE-5",,Pre-sleep
+19:30-21:20,,CDR,,Pre-sleep
+21:20-21:30,,CDR,,RUSALKA Battery Charge
+21:30-06:00,,,,SLEEP
+GMT,,CREW,,ACTIVITY
+06:00-06:10,,"CDR, FE-3,FE-5",,Morning Inspection
+06:00-06:15,,"FE-2, FE-4,FE-6",,Sample Collection
+06:10-06:40,,"CDR, FE-3,FE-5",,Post-sleep
+06:15-06:25,,FE-4,,MELFI Sample Insertion
+06:15-06:55,,"FE-2, FE-6",,Post-sleep
+06:25-07:05,,FE-4,,Post-sleep
+06:40-07:30,,"CDR, FE-3,FE-5",,BREAKFAST
+06:55-07:45,,"FE-2, FE-6",,BREAKFAST
+07:05-07:55,,FE-4,,BREAKFAST
+07:30-07:40,,FE-3,,"BAR Terminate Kelvin-video charging, start charging ТТМ-2"
+07:30-07:50,,"CDR, FE-5",,Work Prep
+07:40-08:00,,FE-3,,Work Prep
+07:45-07:55,,FE-6,,Work Prep
+07:50-08:00,,FE-2,,PHS Evaluation Setup
+07:55-08:00,,FE-6,,HAM Radio Deactivation
+08:00-08:25,,,,Daily Planning Conference (S-band)
+08:25-08:55,,FE-2,,Periodic Health Status - Subject
+08:25-08:40,,CDR,,On MCC GO БМП Ф2 Absorption Cartridge Regeneration (start)
+08:25-08:45,,FE-4,,Work Prep
+08:25-08:55,,FE-6,,Periodic Health Status - Assistance
+08:30-10:00,,FE-3,,"Physical Exercise (TVIS), Day  4"
+08:40-09:55,,CDR,,PNEUMOCARD  Experiment
+08:45-08:55,,FE-4,,Portable PFS power on and a 45-minute warm-up
+08:50-09:00,,FE-5,,Set up video equipment to record ARED exercise
+08:55-09:05,,FE-4,,USOS Window Shutter Close
+08:55-09:20,,FE-2,,Periodic Health Status (PHS) Data Logging. Stowage
+09:00-10:00,,FE-5,,Physical Exercise (ARED)
+09:20-09:30,,FE-2,,CIR Align Guide Installation Prep
+09:30-09:50,,FE-2,,Manual Flow Control Valve (MFCV) positioning marks reapplication
+09:40-11:30,,FE-4,,VO2 Protocol Preparation
+09:50-10:20,,FE-2,,CCAA Swapover
+10:00-11:00,,FE-6,,Physical Exercise T 2
+10:00-11:30,,CDR,,"Physical Exercise (TVIS), Day  3"
+10:00-11:00,,FE-3,,Physical Exercise (ARED)
+10:10-11:00,,FE-5,,"FGB Dust Collector ПС1, ПС2 Filter Replacement (Location ФГБ1ПГО_2_224_1bag #358-9 or #367-20. Discard the removed unit.  Update IMS)"
+10:20-10:30,,FE-2,,SDRM Powerup
+GMT,CREW,,ACTIVITY,
+06:00-06:05,CDR,,Elektron-VM Aerosol Filter Inspection,
+06:00-06:10,"FE-3, FE-5",,Morning Inspection,
+06:00-06:05,"FE-4, FE-6",,SLEEP Data Log Entry,
+06:00-06:05,FE-2,,PROK- PH Urine Test,
+06:05-06:20,CDR,,Post-sleep,
+06:05-06:10,FE-2,,SLEEP Data Log Entry,
+06:05-06:10,"FE-4, FE-6",,Morning Inspection,
+06:10-06:45,"FE-2, FE-4,FE-6",,Post-sleep,
+06:10-06:40,"FE-3, FE-5",,Post-sleep,
+06:20-07:10,CDR,,BREAKFAST,
+06:40-07:30,"FE-3, FE-5",,BREAKFAST,
+06:45-07:35,"FE-2, FE-4,FE-6",,BREAKFAST,
+07:10-07:30,CDR,,Acoustic dosimeters: hardware setup for static measurements,
+07:30-07:55,"CDR, FE-3,FE-5",,Daily Planning Conference (S-band),
+07:55-08:15,FE-5,,"Work Prep Checking MRM1 БПП-4, БПП-7 Fuses",
+08:00-10:00,"CDR, FE-3",,SVO Equipment Audit behind SM panel 231А. Update the IMS.,
+08:20-09:20,FE-5,,"Physical Exercise (VELO), Day  3",
+08:35-10:05,FE-4,,Physical Exercise (ARED),
+09:05-10:05,FE-2,,Physical Exercise T 2,
+09:20-10:50,FE-5,,"Physical Exercise (TVIS), Day  3",
+10:00-11:30,CDR,,Connect LIV display monitor instead of МЦ-27 (ВКУ2) and clean converter fangrilles / r/g 3883 step 1,
+10:05-11:35,FE-2,,Physical Exercise (ARED),
+10:05-11:05,FE-4,,Physical Exercise T 2,
+10:20-11:50,FE-3,,"Physical Exercise (TVIS), Day  3",
+10:50-12:20,FE-5,,Life On The Station Photo and Video,
+11:30-13:00,CDR,,"Physical Exercise (TVIS), Day  2",
+11:30-11:40,FE-4,,Battery Stowage Assembly (BSA) Battery Recharge Terminate,
+11:40-12:00,FE-4,,Start BSA Battery Charge,
+11:50-12:20,FE-3,,RUSALKA Hardware setup for observation using bracket / r/g,
+12:15-12:25,FE-2,,EMU PWR Degassing,
+12:20-12:35,FE-5,,Verify ИП-1 Flow Meter Configuration,
+12:25-12:55,FE-2,,EMU Water Refill,
+12:30-12:45,FE-4,,Private Medical Conference,
+12:35-12:55,FE-3,,"RUSALKA. Closeout Ops, Data Copy",
+12:55-13:00,FE-2,,PROK Diet Logging (Day 2-4),
+12:55-13:05,FE-3,,RUSALKA Hardware Removal,
+GMT,CREW,ACTIVITY,,
+06:00-07:30,"CDR, FE-3",Post-sleep,,
+06:00-06:35,"FE-2, FE-4",Post-sleep,,
+06:00-06:05,FE-5,Elektron-VM Aerosol Filter Inspection,,
+06:00-06:50,FE-6,Post-sleep,,
+06:05-07:15,FE-5,Post-sleep,,
+06:35-07:45,"FE-2, FE-4",EVA Hygiene Break/Prebreathe,,
+06:50-06:55,FE-6,EVA Camera Test,,
+06:55-07:05,FE-6,[CTTC] configuration for EVA,,
+07:05-07:15,FE-6,Post-sleep,,
+07:15-07:45,"FE-5, FE-6",EVA Hygiene Break / Prebreathe /Hatch Closure,,
+07:30-07:35,CDR,Comm configuration for USOs EVA,,
+07:45-09:15,"FE-2,FE-4,FE-5, FE-6",Preparation for EVA,,
+09:15-09:30,"FE-2, FE-4,FE-5, FE-6",EMU Prep for EVA,,
+09:30-10:20,"FE-2, FE-4,FE-5, FE-6",EMU Prebreathe Dry Run,,
+10:00-11:30,CDR,"Physical Exercise (TVIS), Day  3",,
+10:20-10:50,"FE-2, FE-4,FE-5, FE-6",Crew Lock Depress,,
+10:50-10:55,"FE-2, FE-4",Post Depress and A/L Egress,,
+10:55-11:20,"FE-2, FE-4",Crew Lock Egress,,
+11:00-11:20,FE-6,DOUG Software Review,,
+11:20-11:50,FE-2,EMU Prep for EVA,,
+11:20-11:40,FE-4,EMU Prep for EVA,,
+11:20-16:30,FE-6,SSRMS EVA Support,,
+11:30-13:00,FE-5,"Physical Exercise (TVIS), Day  4",,
+11:40-12:30,FE-4,Crew Lock Egress,,
+11:50-12:40,FE-2,EVA - CETA Equipment Prep,,
+12:30-12:55,FE-4,SSRMS Ops,,
+12:40-12:55,FE-2,EVA - CETA Equipment Prep,,
+12:55-13:30,"FE-2, FE-4",Disconnect Failed Pump Module,,
+13:00-14:00,"CDR, FE-3,FE-5",LUNCH,,
+13:30-14:15,FE-2,Crew Lock Egress,,
+13:30-14:15,FE-4,US EVA Tool Stow,,
+14:00-14:40,CDR,СОЖ Maintenance,,
+14:15-14:35,"FE-2, FE-4",Relocate Failed Pump Module,,
+14:35-15:45,FE-2,Failed Pump Module Prep,,
+14:35-14:55,FE-4,Relocate Failed Pump Module with SSRMS,,
+14:55-15:45,FE-4,Failed Pump Module Prep,,
+GMT,,CREW,ACTIVITY,
+06:00-06:10,,CDR,"Morning Inspection. Inspection of Circuit Breakers [АЗС] in DC1 PowerSwitch Panel (БВП) and Fuses in DC1 Fuse Boxes БПП-30, БПП-36",
+,,FE-3,Morning Inspection,
+06:00-06:05,,"FE-2,FE-4,FE-6",SLEEP Data Log Entry,
+06:00-06:05,,FE-5,Elektron-VM Aerosol Filter Inspection,
+06:05-06:10,,"FE-2,FE-4,FE-5,FE-6",Morning Inspection,
+06:10-06:40,,.,Post-sleep,
+06:40-07:30,,.,BREAKFAST,
+07:30-07:35,,CDR,Work Prep,
+07:30-07:45,,"FE-2,FE-3,FE-4,FE-5,FE-6",Work Prep,
+07:35-07:45,,CDR,BAR. Terminate Pyren Charge,
+07:45-08:10,,.,Daily Planning Conference (S-band),
+08:10-08:20,,FE-2,SLT  Computer Reconfig,
+08:10-08:20,,FE-4,RFTA Access,
+08:10-08:25,,FE-5,Private Medical Conference With Physical Exercise Specialist (Velo). Tagupwith specialists (S-band),
+08:15-09:00,,FE-3,BAR Experiment. Tagup with specialists (S-band),
+08:15-10:40,,CDR,,
+08:15-08:25,,FE-6,"MSG SAME Experiment Daily Startup, Step 1",
+08:20-08:30,,"FE-2,FE-4",IFM-KABIN crew cabin removal in support of CDRA R&R,
+08:25-08:55,,FE-6,SAME Sample Carousel Changeout,
+08:30-09:30,,FE-2,Physical Exercise (CEVIS),
+08:30-11:20,,FE-5,PILOT-M Experiment Using Neurolab. Tagup with specialists (S-band),
+08:40-09:40,,FE-4,Physical Exercise Т 2,
+08:55-09:00,,FE-6,"MSG SAME Experiment Daily Startup, Step 2",
+09:00-12:30,,FE-6,SPHERES Experiment Session,
+09:00-09:20,,FE-3,PILOT-M Experiment Assistance w/ Neurolab,
+09:20-10:40,,FE-3,BAR Experiment Ops,
+09:30-11:00,,FE-2,Physical Exercise (ARED),
+09:40-09:50,,FE-4,EHS GC/DMS Ops Start,
+10:05-11:00,,FE-4,Water Recovery System Recycle Filter Tank Assembly (RFTA) R&R,
+10:40-10:55,,CDR,"Soyuz 228 IRIDIUM Phone Charging - Setup, Start Charge",
+10:50-11:50,,FE-3,Cleaning ventilation screens on FGB interior panels,
+11:00-11:45,,FE-2,CIR Stow Gather,
+11:00-12:30,,FE-4,Physical Exercise (ARED),
+11:05-11:10,,CDR,Soyuz 228 IRIDIUM Phone Charge Status Check,
+11:10-11:20,,CDR,"Soyuz 228 IRIDIUM Phone Charging - Terminate Charge, Stow Phone",
+11:20-11:30,,FE-5,"Soyuz 229 IRIDIUM Phone Charging - Phone Setup, Start Charge",
+GMT,CREW,ACTIVITY,,
+06:00-06:10,CDR,Morning Inspection. Checking MRM2 Circuit Breakers [АЗС] and Fuses,,
+06:00-06:05,FE-3,Elektron-VM Aerosol Filter Inspection,,
+06:00-06:10,FE-5,Morning Inspection,,
+06:05-06:10,FE-3,Morning Inspection,,
+,"CDR,FE-",,,
+06:10-06:40,,Post-sleep,,
+,"3,FE-5",,,
+,"CDR,FE-",,,
+06:40-07:30,,BREAKFAST,,
+,"3,FE-5",,,
+09:25-10:55,FE-3,"Physical Exercise (TVIS), Day  4",,
+10:55-11:55,FE-3,Physical Exercise (ARED),,
+11:55-12:55,CDR,"Physical Exercise (VELO), Day  3",,
+11:55-12:55,FE-5,Physical Exercise (ARED),,
+12:55-13:55,.,LUNCH,,
+,,"СОЖ Maintenance. SM and FGB Flush Counter (СП), Water Supply",,
+13:55-14:35,CDR,,,
+,,"System (СВО), Potok Air Purification System Data Calldowns",,
+15:10-15:25,"FE-2,FE-3",Setting up Pille dosimeters for EVA,,
+15:10-16:40,FE-5,"Physical Exercise (TVIS), Day  4",,
+16:40-18:10,CDR,"Physical Exercise (TVIS), Day  3",,
+18:05-18:35,"FE-3,FE-5",Evening Work Prep,,
+18:10-18:35,CDR,Evening Work Prep,,
+,"CDR,FE-",,,
+18:35-19:00,,Daily Planning Conference (S-band),,
+,"3,FE-5",,,
+19:00-19:30,"CDR,FE-5",Evening Work Prep,,
+19:00-19:05,FE-3,Elektron-VM Aerosol Filter Inspection,,
+19:05-19:30,FE-3,Evening Work Prep,,
+,"CDR,FE-",,,
+19:30-21:30,,Pre-sleep,,
+,"3,FE-5",,,
+,"CDR,FE-",,,
+21:30-06:00,,SLEEP,,
+,"3,FE-5",,,
+,"CDR,FE-5",ECON. Observations and Photography,,
+Task List,CDR,SEINER World Ocean Observations,,
+,FE-3,URAGAN. Observations and Photography,,
+GMT,,CREW,,ACTIVITY
+06:00-06:10,,CDR,,SONOCARD Experiment Termination
+06:00-06:05,,FE-3,,Elektron-VM Aerosol Filter Inspection
+06:05-06:10,,,Morning Inspection,
+06:00-06:25,,FE-5,,Post-sleep
+06:10-06:40,,"CDR, FE-3",,Post-sleep
+06:25-07:00,,FE-5,,BREAKFAST
+06:40-07:20,,"CDR, FE-3",,BREAKFAST
+07:00-07:05,,FE-5,,Comm configuration for EVA
+07:05-07:15,,,EVA Inhibit Pad,
+07:15-07:45,,,EVA Hygiene Break / Prebreathe /Hatch Closure,
+07:20-07:45,,"CDR, FE-3",,Daily Planning Conference (S-band)
+07:45-07:55,,,BREAKFAST,
+07:45-09:15,,FE-5,,Preparation for EVA
+07:55-08:15,,CDR,,Work Prep
+07:55-09:55,,FE-3,,Modification of OGS Secondary Power Cable
+08:15-08:30,,CDR,,SONOCARD Copy Data to RSE-MED Laptop
+09:15-09:30,,FE-5,,EMU Purge
+09:30-10:20,,,EMU Prebreathe Before EVA,
+09:55-12:00,,FE-3,,Stowing disposal hardware in Progress 406 and IMS updates
+10:10-11:10,,CDR,,Physical Exercise (ARED)
+10:20-10:50,,FE-5,,Crew Lock Depress
+10:50-17:20,,"FE-2,FE-4",,EVA
+11:10-13:00,,CDR,,SSRMS Support
+11:30-13:00,,FE-5,,"Physical Exercise (TVIS), Day  4"
+12:00-13:00,,FE-3,,Physical Exercise (ARED)
+13:00-14:00,,"CDR, FE-3, FE-5",,LUNCH
+14:00-16:00,,CDR,,SSRMS Support
+14:00-14:25,,FE-3,,Collect SM and FGB Air Samples Using АК-1М Sampler
+14:00-14:10,,FE-5,,FMK Deployment Ops
+14:10-14:30,,,Grab Sample Container (GSC) Sampling Operations,
+14:25-14:35,,FE-3,,SM Air Sampling For FREON Using АК-1М Sampler
+14:35-14:45,,,ИПД Air Sampling for CO in SM,
+15:00-16:30,,,"Physical Exercise (TVIS), Day  4",
+15:50-16:50,,FE-5,,Physical Exercise (ARED)
+16:00-17:30,,CDR,,"Physical Exercise (TVIS), Day  3"
+16:30-16:50,,FE-3,,IMS Update
+16:50-17:05,,,Verify ИП-1 Flow Meter Configuration,
+16:55-17:10,,FE-5,,Crew Lock Repress
+17:10-18:10,,,USOS Post-EVA Cleanup,
+GMT,,CREW,,ACTIVITY
+06:00-06:10,,"CDR, FE-5",,Morning Inspection
+06:00-06:15,,"FE-2, FE-4,FE-6",,Sample Collection
+06:00-06:05,,FE-3,,Elektron-VM Aerosol Filter Inspection
+06:05-06:10,,FE-3,,Morning Inspection
+06:10-06:20,,"CDR, FE-3,FE-5",,Hematocrit  Test
+06:15-06:40,,"FE-2, FE-6",,Post-sleep
+06:15-06:25,,FE-4,,MELFI Sample Insertion
+06:20-06:40,,"CDR, FE-3",,Post-sleep
+06:20-06:25,,FE-5,,Hematocrit  Test Hardware Stowage
+06:25-06:40,,"FE-4, FE-5",,Post-sleep
+06:40-07:30,,,,BREAKFAST
+07:30-07:50,,,,Prep for Work
+07:50-08:15,,,,Daily Planning Conference (S-band)
+08:15-08:35,,FE-2,,Scheduled maintenance of Compound Specific Analyzer- Combustion Products(CSA-CP)
+08:15-09:10,,FE-4,,Kids in Micro-G Experiment Prep
+08:15-08:35,,FE-6,,VO2max. Crew Pulmonary Function System Setup
+08:15-10:15,,CDR,,Functional test of СУДН Pilot’s Sight (ВП-2) and ПУМА Portable Zoom Sight
+08:35-08:45,,FE-2,,CIR Alignment Guide Removal
+08:45-08:50,,FE-5,,MRM2 comm config for experiment
+08:50-10:55,,FE-3,,Photo/Video Chronicle of the ISS PL
+08:50-09:25,,FE-5,,ASEPTIC Glovebox-C and thermostatic container preparation. Tagup withspecialists (S-band)
+09:10-09:20,,FE-6,,Activation of VO2max Crew Portable Pulmonary Function System
+09:10-09:15,,FE-4,,Kids in Micro-G Video Setup
+09:15-09:55,,FE-2,,Kids in Micro-G Experiment Assistance
+09:15-10:15,,FE-4,,Kids in Micro-G Experiment Ops
+09:20-11:10,,FE-6,,VO2max. Experiment Protocol Prep
+09:25-10:15,,FE-5,,ASEPTIC Culture Medium Photography. Placing Kits In Glovebox. Tagup withspecialists (S-band)
+10:15-10:25,,FE-5,,ASEPTIC Air Sampling Configuration Setup.  Tagup with specialists (S-band)
+10:20-10:30,,FE-2,,WRS Water Sample Analysis
+10:25-10:55,,FE-5,,ASEPTIC Surface sampling and beginning of air sampling. Tagup with specialists(S-band)
+10:25-10:35,,CDR,,"Replace ИК0501 CO2 Filter Unit (БФ). Install #104, (b/c 00049634RСМ1РО_4_449_1, bag 363-25). Discard the CO2 Filter you removed.  Updatethe IMS"
+10:30-11:30,,FE-2,,T2 Physical Exercise
+10:35-10:50,,CDR,,Maintenance closures of Vozdukh [ABK] valves
+GMT,,CREW,,ACTIVITY
+06:00-07:30,,CDR,,Morning Inspection. Post-sleep. Breakfast
+06:00-06:10,,"FE-2,FE-3,FE-4,FE-5",,Morning Inspection
+06:00-06:05,,FE-6,,REACTION Self Test
+06:05-06:15,,FE-6,,Morning Inspection
+06:10-06:40,,"FE-2,FE-3,FE-4,FE-5",,Post-sleep
+06:15-06:45,,FE-6,,Post-sleep
+06:40-06:55,,FE-2,,BREAKFAST
+06:40-07:30,,"FE-3,FE-4,FE-5",,BREAKFAST
+06:45-07:35,,FE-6,,BREAKFAST
+06:55-07:10,,FE-2,,Private Family Conference
+07:10-07:30,,FE-2,,BREAKFAST
+08:50-09:50,,FE-3,,Physical Exercise (ARED)
+08:50-09:50,,FE-6,,Physical Exercise (CEVIS)
+09:15-09:30,,FE-5,,Private Family Conference (Ku+S-band)
+09:50-11:20,,FE-3,,"Physical Exercise (TVIS), Day  2"
+09:50-11:20,,FE-6,,Physical Exercise (ARED)
+10:20-11:20,,FE-2,,Physical Exercise T 2
+10:50-11:50,,CDR,,"Physical Exercise (VELO), Day  1"
+11:20-11:30,,FE-2,,T2 Snubber Arm Inspection
+11:30-13:00,,FE-2,,Physical Exercise (ARED)
+12:00-12:15,,CDR,,Private Family Conference (Ku+S-band)
+12:55-13:00,,FE-3,,On MCC Go ISS О2 repress from Progress 406 СрПК (start)
+13:00-14:00,,.,,LUNCH
+14:00-14:40,,CDR,,"СОЖ Maintenance. SM and FGB Flush Counter (СП), Water SupplySystem (СВО), Potok Air Purification System Data Calldowns"
+14:00-14:05,,FE-3,,ISS О2 repress from Progress 406 СрПК (terminate)
+15:55-16:00,,FE-4,,Daily Diet Monitoring
+16:00-17:30,,FE-4,,Physical Exercise (ARED)
+16:00-17:30,,FE-5,,"Physical Exercise (TVIS), Day  2"
+17:05-18:35,,CDR,,"Physical Exercise (TVIS), Day  1"
+17:30-18:30,,FE-4,,Physical Exercise (CEVIS)
+17:30-18:30,,FE-5,,Physical Exercise (ARED)
+18:05-18:20,,FE-6,,ICV Monitoring End
+18:35-18:40,,FE-6,,Daily Diet Monitoring
+18:40-19:05,,.,,Evening Work Prep
+19:05-19:30,,.,,Daily Planning Conference (S-band)
+19:30-21:30,,"CDR,FE-2,FE-3,FE-5",,Pre-sleep
+19:30-20:35,,FE-4,,Pre-sleep
+GMT,CREW,ACTIVITY / ODF or r/g,,
+06:00-06:05,CDR,Elektron-VM Aerosol Filter Inspection,,
+06:00-06:10,"FE-2, FE-3,FE-4",Morning Inspection,,
+06:00-06:10,FE-5,SONOCARD Experiment Termination,,
+06:00-06:05,FE-6,REACTION Self Test,,
+06:05-06:10,FE-6,Morning Inspection,,
+06:05-06:25,CDR,Biochemical urine test,,
+06:10-06:40,"FE-2, FE-4,FE-6",Post-sleep,,
+06:10-06:35,FE-3,Post-sleep,,
+06:10-06:20,FE-5,Morning Inspection,,
+06:20-06:40,FE-5,Biochemical urine test,,
+06:25-06:35,CDR,Morning Inspection,,
+06:35-07:00,CDR,Post-sleep,,
+06:35-06:55,FE-3,Biochemical urine test,,
+06:40-07:30,"FE-2, FE-4,FE-6",BREAKFAST,,
+06:40-07:05,FE-5,Post-sleep,,
+06:55-07:30,FE-3,BREAKFAST,,
+07:00-07:30,CDR,BREAKFAST,,
+07:05-07:30,FE-5,BREAKFAST,,
+07:30-07:55,,Daily Planning Conference (S-band),,
+07:55-08:15,"CDR, FE-5",BREAKFAST,,
+07:55-08:15,FE-2,Prep for Work,,
+07:55-08:10,FE-3,BREAKFAST,,
+07:55-08:05,"FE-4, FE-6",Work Prep,,
+08:05-08:15,FE-4,FSL Tape Insertion,,
+08:05-08:15,FE-6,ICV-MAKITA Battery Installation,,
+08:10-08:20,FE-3,URYSIS Hardware Stow,,
+08:15-08:55,CDR,Filling EDV (KOB) for Electron,,
+08:15-08:30,FE-2,VASC-BLOOD Hardware Setup,,
+08:15-08:30,FE-4,Marangoni Maintenance Work Area (MWA) Transfer,,
+08:15-08:30,FE-5,SONOCARD Copying Data to RSE-MED Laptop and Data Downlink via OCA,,
+08:15-08:25,FE-6,WRS Water Sample Analysis,,
+08:25-10:00,FE-6,EHS SM Sample Collection,,
+08:30-10:00,FE-3,T2 Physical Exercise,,
+08:30-08:55,FE-4,Marangoni Inside (MI) Interface Preparation,,
+08:30-13:00,FE-5,Surface samples from FGB equipment and structures,,
+08:50-09:00,FE-2,EHS GC/DMS Ops Start,,
+GMT,,CREW,ACTIVITY,
+06:00-06:10,,"CDR, FE-3",Morning Inspection,
+06:00-06:05,,"FE-2, FE-4,FE-6",REACTION Self Test,
+06:00-06:05,,FE-5,Elektron-VM Aerosol Filter Inspection,
+06:05-06:10,,"FE-2, FE-4,FE-5, FE-6",Morning Inspection,
+06:10-06:40,,,Post-sleep,
+06:40-07:30,,,BREAKFAST,
+07:30-08:00,,,Work Prep,
+08:00-08:10,,FE-3,BAR. Terminate Pyren Charge,
+08:00-08:05,,FE-6,D2XS Battery Recharge,
+08:05-08:10,,FE-5,ASEPTIC Box Sterilization Activation,
+08:10-08:35,,,Daily Planning Conference (S-band),
+08:35-11:05,,"CDR, FE-3",BAR Experiment Ops,
+08:35-09:00,,FE-2,Pre-EVA Crew Health Status - Prep,
+08:35-09:10,,FE-5,Nadir Hatch Inspection,
+09:00-09:10,,FE-4,Pre-EVA Crew Health Status - CMO,
+09:00-09:10,,FE-2,Pre-EVA Crew Health Status - Subject,
+09:05-10:05,,FE-6,Physical Exercise Т 2,
+09:10-09:20,,FE-2,Pre-EVA Crew Health Status - CMO,
+09:10-09:20,,FE-4,Pre-EVA Crew Health Status - Subject,
+09:20-09:30,,FE-5,ASEPTIC Repositioning Equipment in the Box,
+09:20-09:40,,FE-2,Pre-EVA Crew Health Status Data Entry and Stow,
+09:30-10:30,,FE-5,Installing and connecting АПБ and cables. Tagup with specialists (S-band),
+10:05-11:35,,FE-6,Physical Exercise (ARED),
+10:30-10:35,,FE-5,ASEPTIC Box Sterilization Deactivation,
+10:35-11:35,,FE-2,Physical Exercise (CEVIS),
+11:05-11:40,,FE-3,Photo/Video Chronicle of ISS Payloads,
+11:05-11:40,,FE-5,ASEPTIC Surface sampling and beginning of air sampling,
+11:05-12:35,,CDR,Physical Fitness Evaluation (on treadmill),
+11:35-11:50,,FE-6,MSG/SAME Daily Startup Steps 1 and 2,
+11:35-13:05,,FE-2,Physical Exercise (ARED),
+11:45-12:05,,FE-5,RPCM OBT,
+11:50-11:55,,FE-6,D2XS Battery Recharge,
+11:50-11:55,,FE-4,Bioprocessor and CGBA 5 Status Check,
+11:55-12:05,,FE-6,SDTO T2 Inspection,
+11:55-12:55,,FE-4,Physical Exercise Т2,
+12:05-13:05,,FE-3,Stowing discarded hardware in Progress 406 and IMS updates,
+12:05-12:50,,FE-6,Inspection of Portable Breathing Apparatus (PBA) and Portable Fire Extinguisher(PFE),
+GMT,,CREW,,ACTIVITY
+06:00-06:10,,FE-3,,Morning Inspection
+06:00-06:05,,CDR,,Elektron-VM Aerosol Filter Inspection
+06:00-06:10,,FE-5,,SONOCARD Experiment Termination
+06:05-06:10,,CDR,,Morning Inspection
+06:10-06:40,,,,Post-sleep
+06:40-07:30,,,BREAKFAST,
+07:30-07:55,,,Daily Planning Conference (S-band),
+07:55-08:15,,"FE-3, FE-5",,Work Prep
+07:55-08:55,,CDR,,"SM ПФ1-4 Dust Filter Cartridge Replacement (ФГБ1ПГО_224_1, bag 402-14 or406-25). Update the IMS"
+08:15-08:30,,FE-5,,SONOCARD Data Copy to RSE-MED Laptop and Data Downlink Using OCA
+08:30-11:30,,,Recharging КОБ2 Loop With Coolant. Tagup with specialists (as necessary),
+08:30-11:30,,FE-3,,Life on the Station Photo and Video
+08:55-09:15,,CDR,,Work Prep
+09:30-10:00,,,SEINER Ocean Observations,
+10:00-11:00,,,"СБК Replacement after СМОК Installation.  Install #41 (009058R,ФГБ1ПГО_424_1). Backup unit #58 п.5 (00038274R, ФГБ1ПГО_418_1).Discard the removed unit.. Update IMS",
+11:20-12:00,,,IDENTIFICATION. Copy ИМУ-Ц micro-accelerometer data to laptop,
+11:30-12:30,,FE-5,,"Physical Exercise (VELO), Day 1"
+11:30-13:00,,FE-3,,"Physical Exercise (TVIS), Day 1"
+12:00-13:00,,CDR,,Physical Exercise (ARED)
+13:00-14:00,,,,LUNCH
+14:00-14:50,,FE-3,,Download Pille Dosimeter Readings
+14:00-15:20,,CDR,,Life on the Station Photo and Video
+15:20-16:00,,,СОЖ Maintenance,
+16:00-17:30,,FE-5,,"Physical Exercise (TVIS), Day 1"
+16:00-17:00,,FE-3,,"Physical Exercise (VELO), Day 1"
+16:05-16:25,,CDR,,IMS Update
+16:25-17:15,,,Evening Work Prep,
+17:15-17:20,,,Elektron-VM Aerosol Filter Inspection,
+17:20-18:50,,,"Physical Exercise (TVIS), Day 4",
+18:00-18:50,,"FE-3, FE-5",,Evening Work Prep
+18:50-19:15,,,,Daily Planning Conference (S-band)
+19:15-19:50,,,Pre-sleep,
+19:50-20:15,,,"ISS-MCC TV (То=19:52, T1, Т2, Т3 from СПП) /TV Greetings for the Participants of the International Congress CONISAT-2010.TV Greetings to Volgograd State Medical University on 75th Anniversary",
+20:15-21:30,,,Pre-sleep,
+21:30-06:00,,,SLEEP,
+GMT,,CREW,ACTIVITY,
+06:00-06:10,,CDR,Morning Inspection. Inspection of СМ-У connector on МНР-НС pumpbehind АСУ panel 139,
+06:00-06:10,,"FE-2,FE-3,FE-4,FE-5,FE-6",Morning Inspection,
+06:10-06:40,,.,Post-sleep,
+06:40-06:55,,.,BREAKFAST,
+06:55-07:15,,.,Daily Planning Conference (S-band),
+07:15-07:50,,.,BREAKFAST,
+07:50-08:10,,CDR,Work Prep,
+07:50-08:20,,"FE-2,FE-3",Work Prep,
+07:50-08:00,,"FE-4,FE-5",Work Prep,
+07:50-08:05,,FE-6,Work Prep,
+08:00-08:30,,FE-4,FIR - Connect ELC Laptop to the Rack,
+08:00-10:50,,FE-5,PILOT-M Experiment Using Neurolab. Tagup with specialists (S-band),
+08:05-08:15,,FE-6,"MSG SAME Experiment Daily Startup, Step 1",
+08:10-08:25,,CDR,On MCC GO БМП Ф1 Absorption Cartridge Regeneration (start),
+08:15-08:45,,FE-6,SAME Videotape Changeout,
+08:30-08:50,,FE-3,PILOT-M Experiment Assistance w/ Neurolab,
+08:30-10:00,,FE-4,Physical Exercise (ARED),
+08:35-08:50,,FE-2,BISE Setting Up Hardware for History Photo Documentation,
+08:40-09:20,,CDR,КЛ-154М TV Camera Test. Tagup with specialists (S-band),
+08:45-09:00,,FE-6,SAME Sample Carousel Changeout,
+08:50-09:30,,FE-2,BISE Hardware Setup for the Experiment,
+08:50-09:50,,FE-3,"Physical Exercise (TVIS), Day  3",
+09:00-09:10,,FE-6,SAME Videotape Changeout,
+09:10-09:15,,FE-6,HAM Radio Session Setup,
+09:15-09:30,,FE-6,HAM Radio Session,
+09:30-10:05,,FE-2,BISE Experiment,
+09:30-09:35,,FE-6,BISE Photo Documentation,
+09:50-11:20,,CDR,"Physical Exercise (TVIS), Day  2",
+09:50-10:50,,FE-3,Installing Progress 406 Docking Mechanism,
+10:00-11:00,,FE-6,Physical Exercise T 2,
+10:00-10:10,,FE-4,PFC TFM Configuration Verification,
+10:10-11:40,,FE-4,PFS Power Supply Installation,
+10:05-10:20,,FE-2,ARED Flywheel Cylinder Evacuation,
+10:20-10:30,,FE-2,SDRM Powerup,
+10:30-10:40,,FE-2,CIR Alignment Guide Removal,
+10:50-11:10,,FE-5,Tightening QD Screw Clamps on MRM1 Docking Mechanism /Soyus 229Interface,
+11:00-11:10,,FE-6,T2 Snubber Arm Inspection,
+GMT,,CREW,,ACTIVITY
+06:00-06:05,,CDR,,Elektron-VM Aerosol Filter Inspection
+06:00-06:05,,FE-2,,REACTION Self Test
+06:00-06:10,,"FE-3,FE-5",,Morning Inspection
+06:00-06:05,,"FE-4,FE-6",,SLEEP Data Log Entry
+06:05-06:10,,"CDR,FE-4,FE-6",,Morning Inspection
+06:05-06:10,,FE-2,,SLEEP Data Log Entry
+06:10-06:40,,.,,Post-sleep
+06:40-07:30,,.,,BREAKFAST
+08:00-08:05,,FE-6,,Waste and Hygiene Compartment. EDV Configuration
+09:00-10:00,,FE-2,,Physical Exercise T 2
+09:50-11:20,,FE-3,,"Physical Exercise (TVIS), Day  2"
+10:00-11:30,,FE-2,,Physical Exercise (ARED)
+10:30-11:30,,FE-6,,Physical Exercise T 2
+11:20-12:20,,CDR,,"Physical Exercise (VELO), Day  1"
+11:30-13:00,,FE-6,,Physical Exercise (ARED)
+11:45-12:00,,FE-5,,Private Family Conference (Ku+S-band)
+13:00-14:00,,.,,LUNCH
+14:00-14:15,,FE-4,,Private Family Conference
+14:00-14:40,,FE-5,,"СОЖ Maintenance. SM and FGB Flush Counter (СП), Water SupplySystem (СВО), Potok Air Purification System Data CalldownsInspection of СРВ-К2М hoses from МФ-Р up to БРПК separator"
+15:00-16:30,,CDR,,"Physical Exercise (TVIS), Day  1"
+15:00-16:00,,FE-5,,Physical Exercise (ARED)
+16:00-17:30,,FE-4,,Physical Exercise (ARED)
+16:00-17:30,,FE-5,,"Physical Exercise (TVIS), Day  1"
+16:30-16:45,,FE-6,,Private Family Conference
+17:30-18:30,,FE-4,,Physical Exercise T 2
+17:40-18:40,,FE-3,,Physical Exercise (ARED)
+18:00-18:05,,CDR,,Elektron-VM Aerosol Filter Inspection
+18:30-18:40,,FE-4,,T2 Snubber Arm Inspection
+18:40-18:55,,.,,Evening Work Prep
+18:55-19:20,,.,,Daily Planning Conference (S-band)
+19:20-19:30,,.,,Evening Work Prep
+19:30-21:20,,FE-3,,Pre-sleep
+19:30-21:30,,"CDR,FE-4,FE-5,FE-6",,Pre-sleep
+19:30-19:35,,FE-2,,REACTION Self Test
+19:35-21:30,,FE-2,,Pre-sleep
+21:20-21:30,,FE-3,,BAR Pyren Charging Start
+21:30-06:00,,.,,SLEEP
+GMT,CREW,,ACTIVITY,
+06:00-06:20,CDR,,Acoustic Dosimeters - hardware setup for measurements,
+06:00-06:05,"FE-2, FE-4,FE-6",,PROK- PH Urine Test,
+06:00-06:10,"FE-3, FE-5",,Morning Inspection,
+06:05-06:10,FE-2,,SLEEP Data Log Entry,
+06:05-06:10,FE-4,,Morning Inspection,
+06:05-06:10,FE-6,,REACTION Self Test,
+06:10-06:40,"FE-3, FE-5",,Post-sleep,
+06:10-06:50,"FE-2, FE-6",,Post-sleep,
+06:10-06:45,FE-4,,Post-sleep,
+06:20-06:25,CDR,,Elektron-VM Aerosol Filter Inspection,
+06:25-06:50,CDR,,Post-sleep,
+06:40-07:30,"FE-3, FE-5",,BREAKFAST,
+06:45-07:35,FE-4,,BREAKFAST,
+06:50-07:40,"CDR, FE-2,FE-6",,BREAKFAST,
+07:30-07:40,"FE-3, FE-5",,Work Prep,
+07:40-08:05,"CDR, FE-3,FE-5",,Daily Planning Conference (S-band),
+08:05-08:20,"CDR, FE-3,FE-5",,Private Medical Conference with Physical Exercise Specialists (S-band),
+08:20-08:30,CDR,,Work Prep,
+08:20-08:30,FE-3,,Work Prep,
+08:20-09:20,FE-5,,"ASEPTIC Deactivate, Remove, and Stow Glovebox-C hardware",
+08:35-10:05,FE-6,,Physical Exercise (ARED),
+08:40-09:10,FE-3,,CMO Proficiency Training,
+08:45-09:15,CDR,,SEINER Ocean Observations,
+09:05-10:05,FE-2,,Physical Exercise Т 2,
+09:15-11:00,CDR,,"Physical Exercise (TVIS), Day  1",
+09:20-12:00,FE-5,,FGB Stowage Area Audit.  For the activity see IMS Audit,
+09:25-09:35,FE-4,,"JPM, Cupola and LAB Window Shutter Closure",
+10:05-11:35,FE-2,,Physical Exercise (ARED),
+10:05-10:15,FE-3,,TVIS Weekly Maintenance,
+10:05-11:05,FE-6,,Physical Exercise Т 2,
+10:30-11:10,FE-3,,СОЖ Maintenance,
+10:35-11:35,FE-4,,Physical Exercise (CEVIS),
+11:00-13:05,CDR,,"Inspection and photography of SM windows 6, 7, 8, 9, and 12",
+11:05-11:15,FE-6,,T2 Snubber Arm Inspection,
+11:10-13:10,FE-3,,EVA Tools and Equipment Audit. Tagup with specialists (as necessary),
+11:15-11:30,FE-6,,Lab Truss Jumper Removal,
+GMT,CREW,ACTIVITY,,
+06:00-06:05,CDR,Elektron-VM Aerosol Filter Inspection,,
+06:00-06:10,"FE-3, FE-5, FE-6",Morning Inspection,,
+06:00-06:20,FE-4 subject,HRF Urine Sample Collection,,
+06:00-06:05,FE-2,REACTION Self Test,,
+06:05-06:10,"CDR, FE-2",Morning Inspection,,
+,"CDR, FE-2,",,,
+06:10-06:40,"FE-3, FE-5,",Post-sleep,,
+,FE-6,,,
+06:20-06:25,FE-4,PROK- PH Urine Test,,
+06:25-06:30,FE-4,PRO K Photography,,
+06:30-06:35,FE-4,HRF Urine Sample Insertion Into MELFI,,
+06:35-06:40,FE-4,REACTION Self Test,,
+06:40-07:00,FE-3,BREAKFAST,,
+06:40-06:50,FE-4,Post-sleep,,
+06:40-07:30,"CDR, FE-2, FE-5, FE-6",BREAKFAST,,
+06:50-07:00,FE-4,HRF Refrigerated Centrifuge Setup,,
+07:00-07:15,FE-3 оператор,HRF Blood Sample Draw,,
+07:00-07:20,FE-4 subject,HRF Blood Sample Draw,,
+07:15-07:45,FE-3,BREAKFAST,,
+07:20-07:30,FE-4,Post-sleep,,
+07:30-07:40,FE-4,HRF Refrigerated Centrifuge Configuration,,
+07:30-07:45,"CDR, FE-2, FE-5, FE-6",Work Prep,,
+07:40-07:45,FE-4,Post-sleep,,
+07:45-08:10,,Daily Planning Conference (S-band),,
+08:10-08:20,FE-6,"MSG SAME Experiment Daily Startup, Step 1",,
+08:10-08:15,FE-4,HRF Refrigerated Centrifuge Closeout Ops,,
+08:15-08:20,FE-2,ERB2 Power Up,,
+08:15-08:25,FE-4,HRF Blood Sample Insertion into MELFI,,
+08:20-08:50,FE-6,SAME Sample Carousel Changeout,,
+08:20-08:30,FE-2,Activation of VO2max Crew Portable Pulmonary Function System,,
+08:25-09:30,FE-4,BREAKFAST,,
+08:30-10:00,FE-2,V02max Equipment Setup,,
+09:00-10:30,CDR,Physical Exercise T 2,,
+09:00-10:30,FE-6,Physical Exercise (ARED),,
+09:15-10:45,FE-3,"Physical Exercise (VELO), Day  1",,
+09:30-09:45,FE-4,FPEF Cable Disconnection,,
+09:45-10:30,FE-4,Marangoni. Silicon Filter Cleaning,,
+GMT,,CREW,,ACTIVITY
+06:00-06:10,,"CDR, FE-3",,Morning Inspection
+06:00-06:05,,"FE-4, FE-6",,PRO K Urine PH Test
+06:00-06:20,,FE-2,,HRF Urine Sample Collection Subject
+06:00-06:05,,FE-5,,Elektron-VM Aerosol Filter Inspection
+06:05-06:10,,FE-6,,REACTION Self Test
+06:05-06:10,,FE-5,,Morning Inspection
+06:05-06:10,,FE-4,,SLEEP Data Log Entry
+06:10-06:40,,"CDR, FE-3,FE-4, FE-5",,Post-sleep
+06:10-06:15,,FE-6,,SLEEP Data Log Entry
+06:15-06:40,,FE-6,,Post-sleep
+06:20-06:25,,FE-2,,PRO K Urine PH Test
+06:25-06:30,,FE-2,,HRF Urine Sample Insertion Into MELFI
+06:30-06:40,,FE-2,,HRF Refrigerated Centrifuge Setup
+06:40-06:55,,FE-3,,HRF Blood Draw Operator
+06:40-07:00,,FE-2,,HRF Blood Sample Draw Subject
+06:40-07:30,,"CDR, FE-4,FE-5, FE-6",,BREAKFAST
+06:55-07:30,,FE-3,,BREAKFAST
+07:00-07:05,,FE-2,,SLEEP Data Log Entry
+07:10-07:20,,FE-2,,HRF Refrigerated Centrifuge Configuration
+07:20-07:50,,FE-2,,Post-sleep
+07:30-10:30,,"CDR, FE-3,FE-5",,"Weekly Housekeeping.SM Ventilation System Preventive Maintenance Group E, FGB ЦВ2 Fan Cleaning"
+07:30-10:30,,"FE-4, FE-6",,Weekly Housekeeping
+07:50-07:55,,FE-2,,HRF Refrigerated Centrifuge Closeout Ops
+07:55-08:05,,FE-2,,HRF Blood Sample Insertion into MELFI
+08:05-08:20,,FE-2,,HRF - Stow Blood Collection Hardware
+08:20-08:40,,FE-2,,HRF - Stow Urine Collection Equipment
+08:40-08:50,,FE-2,,Post-sleep
+08:50-09:40,,FE-2,,BREAKFAST
+10:30-12:00,,FE-3,,"Physical Exercise (TVIS), Day  2"
+10:30-11:30,,CDR,,"Physical Exercise (VELO), Day  1"
+10:30-11:30,,FE-5,,Physical Exercise (ARED)
+10:30-11:30,,FE-2,,Physical Exercise (CEVIS)
+11:30-13:00,,FE-2,,Physical Exercise (ARED)
+11:30-13:00,,FE-5,,"Physical Exercise (TVIS), Day  2"
+11:45-12:00,,CDR,,Private Family Conference (S+Ku-band)
+12:15-12:30,,FE-3,,Private Family Conference (S+Ku-band)
+13:00-13:30,,,,Weekly Planning Conference (S-band)
+GMT,CREW,ACTIVITY,,
+06:00-06:10,,Morning Inspection,,
+06:10-06:40,,Post-sleep,,
+06:40-06:45,FE-4,ISS HAM  Radio Setup in Service Module,,
+06:40-07:30,"CDR, FE-2,FE-3, FE-5",BREAKFAST,,
+06:40-07:00,FE-6,BREAKFAST,,
+06:45-07:00,FE-4,ISS HAM. HAM Radio Session from SM,,
+07:00-07:35,FE-4,BREAKFAST,,
+07:00-07:15,FE-6,CARD Crew Pulmonary Function System Power Up,,
+07:15-07:45,FE-6,BREAKFAST,,
+07:30-07:45,"CDR, FE-2,FE-3, FE-5",Work Prep,,
+07:35-07:45,FE-4,Carbon Dioxide Monitor (CDM) Setup,,
+07:45-08:10,,Daily Planning Conference (S-band),,
+08:15-08:30,,ISS Crew and ГОГУ (RSA Flight Control Team Management) Weekly Conference(S-band),,
+08:30-08:45,"CDR, FE-3,FE-5",IMS Tagup (S-band),,
+08:30-10:00,FE-4,Marangoni Inside (MI) Fluid Physics Experiment Facility (FPEF) Setup.1,,
+08:30-08:40,FE-6,CARD Urine Collection for the Experiment,,
+08:30-08:40,FE-2,Work Prep,,
+08:40-09:05,FE-6,CARD Pulmonary Activity Study 4,,
+08:45-09:25,FE-5,"VETEROK Relocation to MRM2, setup, photography",,
+08:45-09:15,FE-3,Photo/Video Chronicle of ISS Payloads,,
+08:45-09:00,FE-2,Food Frequency Questionnaire,,
+08:45-08:55,CDR,WHS SWR R&R,,
+09:00-10:00,FE-2,Physical Exercise T 2,,
+09:05-09:20,FE-6,CARD Refrigerated Centrifuge Setup,,
+09:15-09:30,FE-3,VETEROK Collect Air Samples Using АК-1М Sampler in MRM2,,
+09:15-13:05,CDR,Troubleshooting of TVIS Belt Slats,,
+09:20-09:50,FE-6,CARD Blood Sample Collection,,
+09:25-09:40,FE-5,VETEROK Taking Measurements using ИКАР-1 device,,
+09:30-09:45,FE-3,Photo/Video Chronicle of the ISS PL,,
+09:40-09:45,FE-5,VETEROK Air Scrubber Fan [ВОВ] Activation,,
+09:50-09:55,FE-6,CARD Refrigerated Centrifuge First Configuration,,
+09:55-10:15,FE-5,VETEROK Taking measurements usinge devices IKAR-1 and TAN-1,,
+09:55-10:15,FE-3,Photo/Video Chronicle of ISS Payloads,,
+09:55-10:00,FE-6,EPM LAPTOP 28В Powering from EPM LUDP,,
+10:00-10:10,FE-2,T2 Snubber Arm Inspection,,
+10:00-10:20,FE-4,Marangoni Stowage,,
+GMT,CREW,ACTIVITY,,
+06:00-06:05,CDR,Elektron-VM Aerosol Filter Inspection,,
+06:00-06:10,"FE-3,FE-5",Morning Inspection,,
+06:05-06:10,CDR,Morning Inspection,,
+06:10-06:20,"CDR,FE-3,FE-5",Calf Volume Measurement,,
+06:20-06:50,"CDR,FE-3",Post-sleep,,
+06:20-07:00,FE-5,Post-sleep,,
+06:50-07:40,"CDR,FE-3",BREAKFAST,,
+07:00-07:05,FE-5,EVA Comm Configuration,,
+07:05-07:15,FE-5,URAGAN. FSS PL Battery Charge (start),,
+07:15-07:45,FE-5,EVA Hygiene Break / Prebreathe /Hatch Closure,,
+07:45-09:15,FE-5,Preparation for EVA,,
+07:55-08:40,CDR,Window Inspection Procedure Review. Tagup with specialists (S-band),,
+08:05-08:20,FE-3,MELFI 3 Dewar 2 Tray Insert,,
+08:40-09:40,CDR,Physical Exercise (ARED),,
+08:30-10:00,FE-3,"Physical Exercise (TVIS), Day  1",,
+09:15-09:30,FE-5,EMU Prep for EVA,,
+09:30-10:20,FE-5,EMU Prebreathe Dry Run,,
+10:00-10:40,FE-3,"Water sampling to bags from БРП-М (HOT, WARM vlv) (Use drink bags(2 ea) СМ1РО_ 436_1, БРПК recess)",,
+10:20-10:50,FE-5,Crew Lock Depress,,
+10:40-11:10,FE-3,Sampling condensate water [КАВ] upstream of СРВ-К2М Gas-LiquidMixture Filter [ФГС]- sampler setup,,
+10:50-10:55,FE-5,Activate and set up Cryogem-03 refrigerator to -+37 degrees C,,
+10:50-10:55,"FE-2,FE-4",Post Depress and A/L Egress,,
+10:55-11:40,"FE-2,FE-4",Egress and Setup,,
+10:55-11:35,FE-5,ASEPTIC Prepare for and collect surface samples and air samples aftersterilization,,
+11:10-11:50,FE-3,СОЖ Maintenance,,
+11:15-13:15,CDR,SSRMS Ops,,
+11:35-11:45,FE-5,URAGAN. FSS PL Battery Charge (terminate),,
+11:40-16:45,"FE-2,FE-4",EVA 17,,
+11:45-13:15,FE-5,"Physical Exercise (TVIS), Day  1",,
+11:50-12:10,FE-3,Air Heater Fan [БВН] Screen Cleaning in Soyuz 229,,
+12:10-12:30,FE-3,IMS Update,,
+12:45-13:15,FE-3,MELFI1 Dewar 1 Tray Swap,,
+13:15-14:15,"CDR,FE-3,FE-5",LUNCH,,
+14:20-15:10,FE-5,URAGAN. Observation and Photography using FSS,,
+14:25-16:55,"CDR,FE-3","Inspection of Working Compartment (PO) shell and ring behind panels130, 131, 134,135,138, 139 and TVIS",,
+15:10-15:15,FE-5,ASEPTIC Monitoring Automatic Pump Shut Off,,
+GMT,CREW,ACTIVITY,,
+06:00-06:10,"CDR, FE-5",Morning Inspection,,
+06:00-06:05,FE-3,Elektron-VM Aerosol Filter Inspection,,
+06:05-06:10,FE-3,Morning Inspection,,
+06:10-06:40,,Post-sleep,,
+06:40-07:30,,BREAKFAST,,
+07:30-09:50,CDR,"Weekly Housekeeping. SM Ventilation System Preventive Maintenance Group E,FGB ЦВ2 Fan Cleaning",,
+07:30-10:00,"FE-3, FE-5",,,
+09:50-10:00,CDR,(PAO) Event in Standard Definition (SD) Setup /,,
+10:00-10:10,,Crew Prep For PAO,,
+10:10-10:30,,ISS-MCC-M TV. Telebridge “Exercise on Orbit” (S+Ku-band),,
+10:30-11:10,CDR,"Weekly Housekeeping. SM Ventilation System Preventive Maintenance Group E,FGB ЦВ2 Fan Cleaning",,
+10:30-10:45,FE-3,Private Family Conference (S+Ku-band),,
+10:30-11:00,FE-5,"Weekly Housekeeping. SM Ventilation System Preventive Maintenance Group E,FGB ЦВ2 Fan Cleaning",,
+10:45-11:15,FE-3,,,
+11:15-11:30,CDR,Private Family Conference (S+Ku-band),,
+12:00-13:30,FE-3,"Physical Exercise (TVIS), Day  3",,
+12:30-13:30,CDR,Physical Exercise (ARED),,
+13:20-13:30,FE-5,Cleaning Potok-150МК Air Purification System Pre-filters in SM and FGB / (Usevacuum cleaner and narrow slit nozzle attachment; POTOK must be powereddown),,
+13:30-14:30,,LUNCH,,
+14:30-14:50,,Conference with the Editor of Rossiyski Kosmos magazine / (S-band),,
+15:20-16:00,FE-3,СОЖ Maintenance,,
+16:30-18:00,CDR,"Physical Exercise (TVIS), Day  2",,
+17:00-18:00,FE-5,"Physical Exercise (VELO), Day  3",,
+18:00-19:30,FE-5,"Physical Exercise (TVIS), Day  3",,
+18:25-18:30,FE-3,Elektron-VM Aerosol Filter Inspection,,
+18:30-19:30,FE-3,"Physical Exercise (VELO), Day  3",,
+19:30-21:30,,Pre-sleep,,
+21:30-06:00,,SLEEP,,
+Task LIST,FE-3,URAGAN. Observations and Photography,,
+"CDR, FE-5",ECON. Observations and Photography,,,
+GMT,,CREW,,ACTIVITY
+06:00-06:10,,"FE-3, FE-5",,Morning Inspection
+06:00-06:05,,CDR,,Elektron-VM Aerosol Filter Inspection
+06:05-06:15,,,Morning Inspection,
+06:10-06:40,,"FE-3, FE-5",,Post-sleep
+06:15-06:45,,CDR,,
+06:40-07:30,,"FE-3, FE-5",,BREAKFAST
+06:45-07:35,,CDR,,
+07:35-07:55,,,,Daily Planning Conference (S-band)
+07:55-08:10,,,ISS Crew and ГОГУ (RSA Flight Control Team Management) Weekly Conference (S-band),
+08:10-08:40,,CDR,,RUSALKA Hardware setup for observation using bracket
+08:10-08:30,,FE-5,,Work Prep
+08:10-11:00,,FE-3,,PILOT-M Experiment Using Neurolab
+08:40-09:00,,CDR,,PILOT. Assistance with the experiment using Neurolab
+09:00-09:20,,,"RUSALKA. Closeout Ops, Data Copy",
+09:20-09:30,,,RUSALKA Hardware Removal,
+09:30-09:40,,,URAGAN. FSS PL Battery Charge (start),
+10:15-10:30,,,RUSALKA Terminate Data Copy and Downlink via OCA,
+10:50-12:20,,,"Physical Exercise (TVIS), Day 1",
+11:00-12:00,,FE-5,,Physical Exercise (ARED)
+12:00-13:00,,FE-3,,
+12:20-13:00,,CDR,,СОЖ Maintenance
+13:00-14:00,,,,LUNCH
+14:00-14:15,,,IMS Tagup (S-band),
+14:15-14:25,,CDR,,URAGAN. FSS PL Battery Charge (terminate)
+14:25-15:10,,,URAGAN. Observation and Photography using FSS,
+15:10-16:40,,FE-3,,"Physical Exercise (TVIS), Day 2"
+16:05-17:05,,CDR,,"Physical Exercise (VELO), Day 1"
+17:05-17:25,,,IMS Update,
+17:15-18:45,,FE-5,,"Physical Exercise (TVIS), Day 2"
+17:25-17:30,,CDR,,Elektron-VM Aerosol Filter Inspection
+18:35-19:05,,"CDR, FE-3",,Evening Work Prep
+18:45-19:05,,FE-5,,
+19:05-19:25,,,,Daily Planning Conference (S-band)
+19:25-19:40,,,Evening Work Prep,
+19:40-21:30,,,Pre-sleep,
+21:30-06:00,,,SLEEP,
