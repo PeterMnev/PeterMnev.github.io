@@ -13204,7 +13204,7 @@ Requirement already satisfied: six&gt;=1.5 in /usr/local/lib/python3.6/dist-pack
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[47]:</div>
+<div class="prompt input_prompt">In&nbsp;[50]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Need to do this every runtime, acquires the datas</span>
@@ -13227,13 +13227,13 @@ Requirement already satisfied: six&gt;=1.5 in /usr/local/lib/python3.6/dist-pack
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Cloning into &#39;PeterMnev.github.io&#39;...
-remote: Enumerating objects: 354, done.
-remote: Counting objects: 100% (354/354), done.
-remote: Compressing objects: 100% (237/237), done.
-remote: Total 5316 (delta 162), reused 298 (delta 117), pack-reused 4962
-Receiving objects: 100% (5316/5316), 321.08 MiB | 15.64 MiB/s, done.
-Resolving deltas: 100% (193/193), done.
-Checking out files: 100% (5303/5303), done.
+remote: Enumerating objects: 365, done.
+remote: Counting objects: 100% (365/365), done.
+remote: Compressing objects: 100% (248/248), done.
+remote: Total 5327 (delta 168), reused 298 (delta 117), pack-reused 4962
+Receiving objects: 100% (5327/5327), 321.15 MiB | 15.15 MiB/s, done.
+Resolving deltas: 100% (199/199), done.
+Checking out files: 100% (5305/5305), done.
 </pre>
 </div>
 </div>
@@ -13244,10 +13244,10 @@ Checking out files: 100% (5303/5303), done.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[48]:</div>
+<div class="prompt input_prompt">In&nbsp;[52]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>jupyter nbconvert --to html /content/PeterMnev.github.io/Final_Project.ipynb
+<div class=" highlight hl-ipython3"><pre><span></span>  <span class="o">!</span>jupyter nbconvert --to html /content/PeterMnev.github.io/Final_Project.ipynb
 </pre></div>
 
     </div>
@@ -13265,7 +13265,7 @@ Checking out files: 100% (5303/5303), done.
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>[NbConvertApp] Converting notebook /content/PeterMnev.github.io/Final_Project.ipynb to html
-[NbConvertApp] Writing 728033 bytes to /content/PeterMnev.github.io/Final_Project.html
+[NbConvertApp] Writing 696761 bytes to /content/PeterMnev.github.io/Final_Project.html
 </pre>
 </div>
 </div>
@@ -19203,6 +19203,7 @@ Name: 1, Length: 5995, dtype: object</pre>
 <span class="s2">}</span>
 <span class="s2">&quot;&quot;&quot;</span><span class="p">)</span>
 <span class="n">net</span><span class="o">.</span><span class="n">save_graph</span><span class="p">(</span><span class="s2">&quot;mygraph.html&quot;</span><span class="p">)</span>
+<span class="n">IPython</span><span class="o">.</span><span class="n">display</span><span class="o">.</span><span class="n">HTML</span><span class="p">(</span><span class="n">filename</span><span class="o">=</span><span class="s1">&#39;mygraph.html&#39;</span><span class="p">)</span>
 </pre></div>
 
     </div>
