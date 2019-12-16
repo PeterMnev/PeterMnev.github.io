@@ -1,0 +1,173 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.css" type="text/css" />
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis-network.min.js"> </script>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+
+<style type="text/css">
+
+        #mynetwork {
+            width: 500px;
+            height: 500px;
+            background-color: #ffffff;
+            border: 1px solid lightgray;
+            position: relative;
+            float: left;
+        }
+
+        
+        #loadingBar {
+            position:absolute;
+            top:0px;
+            left:0px;
+            width: 500px;
+            height: 500px;
+            background-color:rgba(200,200,200,0.8);
+            -webkit-transition: all 0.5s ease;
+            -moz-transition: all 0.5s ease;
+            -ms-transition: all 0.5s ease;
+            -o-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+            opacity:1;
+        }
+
+        #bar {
+            position:absolute;
+            top:0px;
+            left:0px;
+            width:20px;
+            height:20px;
+            margin:auto auto auto auto;
+            border-radius:11px;
+            border:2px solid rgba(30,30,30,0.05);
+            background: rgb(0, 173, 246); /* Old browsers */
+            box-shadow: 2px 0px 4px rgba(0,0,0,0.4);
+        }
+
+        #border {
+            position:absolute;
+            top:10px;
+            left:10px;
+            width:500px;
+            height:23px;
+            margin:auto auto auto auto;
+            box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
+            border-radius:10px;
+        }
+
+        #text {
+            position:absolute;
+            top:8px;
+            left:530px;
+            width:30px;
+            height:50px;
+            margin:auto auto auto auto;
+            font-size:22px;
+            color: #000000;
+        }
+
+        div.outerBorder {
+            position:relative;
+            top:400px;
+            width:600px;
+            height:44px;
+            margin:auto auto auto auto;
+            border:8px solid rgba(0,0,0,0.1);
+            background: rgb(252,252,252); /* Old browsers */
+            background: -moz-linear-gradient(top,  rgba(252,252,252,1) 0%, rgba(237,237,237,1) 100%); /* FF3.6+ */
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(252,252,252,1)), color-stop(100%,rgba(237,237,237,1))); /* Chrome,Safari4+ */
+            background: -webkit-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* Chrome10+,Safari5.1+ */
+            background: -o-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* Opera 11.10+ */
+            background: -ms-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* IE10+ */
+            background: linear-gradient(to bottom,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* W3C */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+            border-radius:72px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+        }
+        
+
+        
+
+        
+</style>
+
+</head>
+
+<body>
+<div id = "mynetwork"></div>
+
+<div id="loadingBar">
+    <div class="outerBorder">
+        <div id="text">0%</div>
+        <div id="border">
+            <div id="bar"></div>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+
+    // initialize global variables.
+    var edges;
+    var nodes;
+    var network; 
+    var container;
+    var options, data;
+
+    
+    // This method is responsible for drawing the graph, returns the drawn network
+    function drawGraph() {
+        var container = document.getElementById('mynetwork');
+        
+        
+
+        // parsing and collecting nodes and edges from the python
+        nodes = new vis.DataSet([{"id": "crew", "label": "crew", "labelHighlightBold": true, "shape": "dot", "value": 5636}, {"id": "sample", "label": "sample", "labelHighlightBold": true, "shape": "dot", "value": 4502}, {"id": "conference", "label": "conference", "labelHighlightBold": true, "shape": "dot", "value": 12861}, {"id": "melfi", "label": "melfi", "labelHighlightBold": true, "shape": "dot", "value": 1489}, {"id": "sband", "label": "sband", "labelHighlightBold": true, "shape": "dot", "value": 14015}, {"id": "camera", "label": "camera", "labelHighlightBold": true, "shape": "dot", "value": 1323}, {"id": "photography", "label": "photography", "labelHighlightBold": true, "shape": "dot", "value": 1310}, {"id": "removal", "label": "removal", "labelHighlightBold": true, "shape": "dot", "value": 1841}, {"id": "assembly", "label": "assembly", "labelHighlightBold": true, "shape": "dot", "value": 936}, {"id": "temperature", "label": "temperature", "labelHighlightBold": true, "shape": "dot", "value": 534}, {"id": "eva", "label": "eva", "labelHighlightBold": true, "shape": "dot", "value": 4428}, {"id": "item", "label": "item", "labelHighlightBold": true, "shape": "dot", "value": 1314}, {"id": "wrs", "label": "wrs", "labelHighlightBold": true, "shape": "dot", "value": 571}, {"id": "page", "label": "page", "labelHighlightBold": true, "shape": "dot", "value": 612}, {"id": "recovery", "label": "recovery", "labelHighlightBold": true, "shape": "dot", "value": 305}, {"id": "power", "label": "power", "labelHighlightBold": true, "shape": "dot", "value": 3518}, {"id": "rack", "label": "rack", "labelHighlightBold": true, "shape": "dot", "value": 1548}, {"id": "loop", "label": "loop", "labelHighlightBold": true, "shape": "dot", "value": 464}, {"id": "closure", "label": "closure", "labelHighlightBold": true, "shape": "dot", "value": 664}, {"id": "emergency", "label": "emergency", "labelHighlightBold": true, "shape": "dot", "value": 497}, {"id": "hardware", "label": "hardware", "labelHighlightBold": true, "shape": "dot", "value": 4834}, {"id": "setup", "label": "setup", "labelHighlightBold": true, "shape": "dot", "value": 5084}, {"id": "camcorder", "label": "camcorder", "labelHighlightBold": true, "shape": "dot", "value": 668}, {"id": "edv", "label": "edv", "labelHighlightBold": true, "shape": "dot", "value": 574}, {"id": "stowage", "label": "stowage", "labelHighlightBold": true, "shape": "dot", "value": 2052}, {"id": "ops", "label": "ops", "labelHighlightBold": true, "shape": "dot", "value": 5196}, {"id": "closeout", "label": "closeout", "labelHighlightBold": true, "shape": "dot", "value": 1214}, {"id": "radio", "label": "radio", "labelHighlightBold": true, "shape": "dot", "value": 1705}, {"id": "ham", "label": "ham", "labelHighlightBold": true, "shape": "dot", "value": 1737}, {"id": "session", "label": "session", "labelHighlightBold": true, "shape": "dot", "value": 1133}, {"id": "data", "label": "data", "labelHighlightBold": true, "shape": "dot", "value": 5910}, {"id": "transfer", "label": "transfer", "labelHighlightBold": true, "shape": "dot", "value": 4935}, {"id": "questionnaire", "label": "questionnaire", "labelHighlightBold": true, "shape": "dot", "value": 1626}, {"id": "downlink", "label": "downlink", "labelHighlightBold": true, "shape": "dot", "value": 2266}, {"id": "mec", "label": "mec", "labelHighlightBold": true, "shape": "dot", "value": 1855}, {"id": "air", "label": "air", "labelHighlightBold": true, "shape": "dot", "value": 4104}, {"id": "sm", "label": "sm", "labelHighlightBold": true, "shape": "dot", "value": 6324}, {"id": "sampling", "label": "sampling", "labelHighlightBold": true, "shape": "dot", "value": 1319}, {"id": "fan", "label": "fan", "labelHighlightBold": true, "shape": "dot", "value": 991}, {"id": "cleaning", "label": "cleaning", "labelHighlightBold": true, "shape": "dot", "value": 1574}, {"id": "maintenance", "label": "maintenance", "labelHighlightBold": true, "shape": "dot", "value": 5238}, {"id": "\u0441\u043e\u0436", "label": "\u0441\u043e\u0436", "labelHighlightBold": true, "shape": "dot", "value": 3270}, {"id": "ssc", "label": "ssc", "labelHighlightBold": true, "shape": "dot", "value": 834}, {"id": "support", "label": "support", "labelHighlightBold": true, "shape": "dot", "value": 668}, {"id": "cleanup", "label": "cleanup", "labelHighlightBold": true, "shape": "dot", "value": 434}, {"id": "cable", "label": "cable", "labelHighlightBold": true, "shape": "dot", "value": 1169}, {"id": "cargo", "label": "cargo", "labelHighlightBold": true, "shape": "dot", "value": 502}, {"id": "file", "label": "file", "labelHighlightBold": true, "shape": "dot", "value": 1370}, {"id": "comm", "label": "comm", "labelHighlightBold": true, "shape": "dot", "value": 1595}, {"id": "config", "label": "config", "labelHighlightBold": true, "shape": "dot", "value": 3541}, {"id": "reconfig", "label": "reconfig", "labelHighlightBold": true, "shape": "dot", "value": 1133}, {"id": "test", "label": "test", "labelHighlightBold": true, "shape": "dot", "value": 4880}, {"id": "check", "label": "check", "labelHighlightBold": true, "shape": "dot", "value": 5543}, {"id": "monitoring", "label": "monitoring", "labelHighlightBold": true, "shape": "dot", "value": 1667}, {"id": "water", "label": "water", "labelHighlightBold": true, "shape": "dot", "value": 2592}, {"id": "private", "label": "private", "labelHighlightBold": true, "shape": "dot", "value": 4831}, {"id": "icv", "label": "icv", "labelHighlightBold": true, "shape": "dot", "value": 801}, {"id": "fgb", "label": "fgb", "labelHighlightBold": true, "shape": "dot", "value": 1530}, {"id": "measurements", "label": "measurements", "labelHighlightBold": true, "shape": "dot", "value": 357}, {"id": "lab", "label": "lab", "labelHighlightBold": true, "shape": "dot", "value": 1789}, {"id": "battery", "label": "battery", "labelHighlightBold": true, "shape": "dot", "value": 2619}, {"id": "status", "label": "status", "labelHighlightBold": true, "shape": "dot", "value": 2207}, {"id": "charge", "label": "charge", "labelHighlightBold": true, "shape": "dot", "value": 1825}, {"id": "payload", "label": "payload", "labelHighlightBold": true, "shape": "dot", "value": 1588}, {"id": "video", "label": "video", "labelHighlightBold": true, "shape": "dot", "value": 3411}, {"id": "review", "label": "review", "labelHighlightBold": true, "shape": "dot", "value": 2609}, {"id": "msg", "label": "msg", "labelHighlightBold": true, "shape": "dot", "value": 916}, {"id": "experiment", "label": "experiment", "labelHighlightBold": true, "shape": "dot", "value": 3933}, {"id": "procedure", "label": "procedure", "labelHighlightBold": true, "shape": "dot", "value": 1165}, {"id": "inspection", "label": "inspection", "labelHighlightBold": true, "shape": "dot", "value": 8966}, {"id": "laptop", "label": "laptop", "labelHighlightBold": true, "shape": "dot", "value": 2170}, {"id": "tank", "label": "tank", "labelHighlightBold": true, "shape": "dot", "value": 1095}, {"id": "morning", "label": "morning", "labelHighlightBold": true, "shape": "dot", "value": 6121}, {"id": "soyuz", "label": "soyuz", "labelHighlightBold": true, "shape": "dot", "value": 2327}, {"id": "unit", "label": "unit", "labelHighlightBold": true, "shape": "dot", "value": 1821}, {"id": "replacement", "label": "replacement", "labelHighlightBold": true, "shape": "dot", "value": 1522}, {"id": "bag", "label": "bag", "labelHighlightBold": true, "shape": "dot", "value": 821}, {"id": "filter", "label": "filter", "labelHighlightBold": true, "shape": "dot", "value": 1848}, {"id": "start", "label": "start", "labelHighlightBold": true, "shape": "dot", "value": 3450}, {"id": "photo", "label": "photo", "labelHighlightBold": true, "shape": "dot", "value": 3204}, {"id": "regeneration", "label": "regeneration", "labelHighlightBold": true, "shape": "dot", "value": 1059}, {"id": "cartridge", "label": "cartridge", "labelHighlightBold": true, "shape": "dot", "value": 865}, {"id": "\u0431\u043c\u043f", "label": "\u0431\u043c\u043f", "labelHighlightBold": true, "shape": "dot", "value": 784}, {"id": "tagup", "label": "tagup", "labelHighlightBold": true, "shape": "dot", "value": 5545}, {"id": "specialists", "label": "specialists", "labelHighlightBold": true, "shape": "dot", "value": 3436}, {"id": "activation", "label": "activation", "labelHighlightBold": true, "shape": "dot", "value": 4719}, {"id": "preparation", "label": "preparation", "labelHighlightBold": true, "shape": "dot", "value": 1278}, {"id": "installation", "label": "installation", "labelHighlightBold": true, "shape": "dot", "value": 2750}, {"id": "dc1", "label": "dc1", "labelHighlightBold": true, "shape": "dot", "value": 1636}, {"id": "node", "label": "node", "labelHighlightBold": true, "shape": "dot", "value": 953}, {"id": "equipment", "label": "equipment", "labelHighlightBold": true, "shape": "dot", "value": 2863}, {"id": "prep", "label": "prep", "labelHighlightBold": true, "shape": "dot", "value": 21020}, {"id": "return", "label": "return", "labelHighlightBold": true, "shape": "dot", "value": 1005}, {"id": "stow", "label": "stow", "labelHighlightBold": true, "shape": "dot", "value": 4320}, {"id": "exercise", "label": "exercise", "labelHighlightBold": true, "shape": "dot", "value": 24646}, {"id": "physical", "label": "physical", "labelHighlightBold": true, "shape": "dot", "value": 22212}, {"id": "day", "label": "day", "labelHighlightBold": true, "shape": "dot", "value": 8972}, {"id": "tvis", "label": "tvis", "labelHighlightBold": true, "shape": "dot", "value": 9898}, {"id": "ims", "label": "ims", "labelHighlightBold": true, "shape": "dot", "value": 3775}, {"id": "collection", "label": "collection", "labelHighlightBold": true, "shape": "dot", "value": 2820}, {"id": "hrf", "label": "hrf", "labelHighlightBold": true, "shape": "dot", "value": 2122}, {"id": "blood", "label": "blood", "labelHighlightBold": true, "shape": "dot", "value": 1192}, {"id": "urine", "label": "urine", "labelHighlightBold": true, "shape": "dot", "value": 3171}, {"id": "tv", "label": "tv", "labelHighlightBold": true, "shape": "dot", "value": 13683}, {"id": "drying", "label": "drying", "labelHighlightBold": true, "shape": "dot", "value": 633}, {"id": "kuband", "label": "kuband", "labelHighlightBold": true, "shape": "dot", "value": 1257}, {"id": "iss", "label": "iss", "labelHighlightBold": true, "shape": "dot", "value": 5606}, {"id": "progress", "label": "progress", "labelHighlightBold": true, "shape": "dot", "value": 3413}, {"id": "repress", "label": "repress", "labelHighlightBold": true, "shape": "dot", "value": 1246}, {"id": "mcc", "label": "mcc", "labelHighlightBold": true, "shape": "dot", "value": 2050}]);
+        edges = new vis.DataSet([{"from": "crew", "to": "conference", "weight": 9.52, "width": 7.14}, {"from": "crew", "to": "sband", "weight": 7.29, "width": 5.467499999999999}, {"from": "crew", "to": "tagup", "weight": 2.13, "width": 1.5975}, {"from": "crew", "to": "iss", "weight": 9.63, "width": 7.2225}, {"from": "sample", "to": "melfi", "weight": 6.68, "width": 5.01}, {"from": "sample", "to": "air", "weight": 4.17, "width": 3.1275}, {"from": "sample", "to": "sm", "weight": 2.39, "width": 1.7925}, {"from": "sample", "to": "sampling", "weight": 3.49, "width": 2.6174999999999997}, {"from": "sample", "to": "water", "weight": 2.85, "width": 2.1374999999999997}, {"from": "sample", "to": "collection", "weight": 10.61, "width": 7.9575}, {"from": "sample", "to": "hrf", "weight": 4.22, "width": 3.165}, {"from": "sample", "to": "blood", "weight": 5.3500000000000005, "width": 4.0125}, {"from": "sample", "to": "urine", "weight": 6.49, "width": 4.8675}, {"from": "conference", "to": "sband", "weight": 13.42, "width": 10.065}, {"from": "conference", "to": "private", "weight": 6.0600000000000005, "width": 4.545}, {"from": "conference", "to": "tv", "weight": 2.07, "width": 1.5525}, {"from": "conference", "to": "iss", "weight": 4.83, "width": 3.6225}, {"from": "melfi", "to": "hrf", "weight": 2.35, "width": 1.7625}, {"from": "melfi", "to": "urine", "weight": 3.31, "width": 2.4825}, {"from": "sband", "to": "eva", "weight": 3.66, "width": 2.745}, {"from": "sband", "to": "hardware", "weight": 2.58, "width": 1.9349999999999998}, {"from": "sband", "to": "setup", "weight": 2.65, "width": 1.9874999999999998}, {"from": "sband", "to": "ops", "weight": 3.68, "width": 2.76}, {"from": "sband", "to": "sm", "weight": 2.72, "width": 2.04}, {"from": "sband", "to": "test", "weight": 2.21, "width": 1.6575}, {"from": "sband", "to": "private", "weight": 2.9, "width": 2.175}, {"from": "sband", "to": "experiment", "weight": 5.23, "width": 3.9225}, {"from": "sband", "to": "tagup", "weight": 29.97, "width": 22.4775}, {"from": "sband", "to": "specialists", "weight": 23.01, "width": 17.2575}, {"from": "sband", "to": "tv", "weight": 3.21, "width": 2.4074999999999998}, {"from": "sband", "to": "iss", "weight": 5.78, "width": 4.335}, {"from": "camera", "to": "eva", "weight": 2.44, "width": 1.8299999999999998}, {"from": "camera", "to": "config", "weight": 2.1, "width": 1.575}, {"from": "camera", "to": "check", "weight": 2.16, "width": 1.6199999999999999}, {"from": "camera", "to": "video", "weight": 2.13, "width": 1.5975}, {"from": "photography", "to": "photo", "weight": 13.1, "width": 9.825}, {"from": "eva", "to": "ops", "weight": 3.0, "width": 2.25}, {"from": "eva", "to": "config", "weight": 5.74, "width": 4.305}, {"from": "eva", "to": "reconfig", "weight": 2.47, "width": 1.8525}, {"from": "eva", "to": "tagup", "weight": 3.94, "width": 2.955}, {"from": "eva", "to": "specialists", "weight": 2.68, "width": 2.01}, {"from": "eva", "to": "dc1", "weight": 2.89, "width": 2.1675}, {"from": "eva", "to": "prep", "weight": 3.61, "width": 2.7075}, {"from": "item", "to": "page", "weight": 4.98, "width": 3.735}, {"from": "power", "to": "cable", "weight": 2.2, "width": 1.65}, {"from": "hardware", "to": "setup", "weight": 9.75, "width": 7.3125}, {"from": "hardware", "to": "stowage", "weight": 3.25, "width": 2.4375}, {"from": "hardware", "to": "tagup", "weight": 4.14, "width": 3.105}, {"from": "hardware", "to": "specialists", "weight": 3.0100000000000002, "width": 2.2575}, {"from": "hardware", "to": "activation", "weight": 4.71, "width": 3.5324999999999998}, {"from": "hardware", "to": "prep", "weight": 4.01, "width": 3.0075}, {"from": "hardware", "to": "return", "weight": 2.75, "width": 2.0625}, {"from": "hardware", "to": "stow", "weight": 8.41, "width": 6.3075}, {"from": "hardware", "to": "collection", "weight": 2.32, "width": 1.74}, {"from": "hardware", "to": "progress", "weight": 2.65, "width": 1.9874999999999998}, {"from": "setup", "to": "video", "weight": 4.62, "width": 3.465}, {"from": "setup", "to": "experiment", "weight": 2.37, "width": 1.7774999999999999}, {"from": "setup", "to": "photo", "weight": 2.4, "width": 1.7999999999999998}, {"from": "setup", "to": "tagup", "weight": 3.46, "width": 2.5949999999999998}, {"from": "setup", "to": "specialists", "weight": 2.73, "width": 2.0475}, {"from": "setup", "to": "equipment", "weight": 3.99, "width": 2.9924999999999997}, {"from": "setup", "to": "tv", "weight": 2.45, "width": 1.8375}, {"from": "stowage", "to": "equipment", "weight": 3.04, "width": 2.28}, {"from": "stowage", "to": "stow", "weight": 18.98, "width": 14.235}, {"from": "ops", "to": "closeout", "weight": 9.18, "width": 6.885}, {"from": "ops", "to": "transfer", "weight": 2.5500000000000003, "width": 1.9124999999999999}, {"from": "ops", "to": "config", "weight": 2.05, "width": 1.5374999999999999}, {"from": "ops", "to": "video", "weight": 2.25, "width": 1.6875}, {"from": "ops", "to": "experiment", "weight": 7.98, "width": 5.984999999999999}, {"from": "ops", "to": "photo", "weight": 2.59, "width": 1.9425}, {"from": "ops", "to": "tagup", "weight": 4.9, "width": 3.675}, {"from": "ops", "to": "specialists", "weight": 3.69, "width": 2.7675}, {"from": "ops", "to": "ims", "weight": 2.54, "width": 1.905}, {"from": "radio", "to": "ham", "weight": 6.5600000000000005, "width": 4.92}, {"from": "radio", "to": "session", "weight": 2.35, "width": 1.7625}, {"from": "ham", "to": "session", "weight": 2.38, "width": 1.785}, {"from": "data", "to": "transfer", "weight": 7.45, "width": 5.5874999999999995}, {"from": "data", "to": "downlink", "weight": 7.94, "width": 5.955}, {"from": "data", "to": "mec", "weight": 3.48, "width": 2.61}, {"from": "data", "to": "air", "weight": 2.64, "width": 1.98}, {"from": "data", "to": "sm", "weight": 3.13, "width": 2.3474999999999997}, {"from": "data", "to": "maintenance", "weight": 2.3000000000000003, "width": 1.7249999999999999}, {"from": "data", "to": "\u0441\u043e\u0436", "weight": 2.29, "width": 1.7175}, {"from": "data", "to": "laptop", "weight": 2.85, "width": 2.1374999999999997}, {"from": "data", "to": "tagup", "weight": 2.07, "width": 1.5525}, {"from": "data", "to": "tvis", "weight": 2.59, "width": 1.9425}, {"from": "data", "to": "collection", "weight": 3.48, "width": 2.61}, {"from": "data", "to": "tv", "weight": 2.74, "width": 2.0549999999999997}, {"from": "transfer", "to": "mec", "weight": 3.64, "width": 2.73}, {"from": "transfer", "to": "sm", "weight": 3.39, "width": 2.5425}, {"from": "transfer", "to": "cargo", "weight": 2.25, "width": 1.6875}, {"from": "transfer", "to": "water", "weight": 2.5500000000000003, "width": 1.9124999999999999}, {"from": "transfer", "to": "tank", "weight": 2.48, "width": 1.8599999999999999}, {"from": "transfer", "to": "soyuz", "weight": 3.95, "width": 2.9625}, {"from": "transfer", "to": "tvis", "weight": 2.64, "width": 1.98}, {"from": "transfer", "to": "ims", "weight": 2.94, "width": 2.205}, {"from": "transfer", "to": "tv", "weight": 5.24, "width": 3.9299999999999997}, {"from": "transfer", "to": "progress", "weight": 5.44, "width": 4.08}, {"from": "questionnaire", "to": "air", "weight": 5.1000000000000005, "width": 3.8249999999999997}, {"from": "downlink", "to": "sm", "weight": 2.45, "width": 1.8375}, {"from": "downlink", "to": "video", "weight": 3.48, "width": 2.61}, {"from": "downlink", "to": "photo", "weight": 2.47, "width": 1.8525}, {"from": "downlink", "to": "prep", "weight": 3.38, "width": 2.5349999999999997}, {"from": "downlink", "to": "tv", "weight": 5.33, "width": 3.9975}, {"from": "downlink", "to": "kuband", "weight": 2.5300000000000002, "width": 1.8975}, {"from": "mec", "to": "sm", "weight": 2.58, "width": 1.9349999999999998}, {"from": "mec", "to": "tvis", "weight": 2.96, "width": 2.2199999999999998}, {"from": "mec", "to": "tv", "weight": 3.0, "width": 2.25}, {"from": "air", "to": "sm", "weight": 5.46, "width": 4.095}, {"from": "air", "to": "sampling", "weight": 4.44, "width": 3.33}, {"from": "air", "to": "maintenance", "weight": 2.13, "width": 1.5975}, {"from": "air", "to": "fgb", "weight": 3.17, "width": 2.3775}, {"from": "sm", "to": "sampling", "weight": 2.2600000000000002, "width": 1.6949999999999998}, {"from": "sm", "to": "cleaning", "weight": 2.71, "width": 2.0324999999999998}, {"from": "sm", "to": "maintenance", "weight": 4.79, "width": 3.5925}, {"from": "sm", "to": "test", "weight": 3.44, "width": 2.58}, {"from": "sm", "to": "check", "weight": 2.84, "width": 2.13}, {"from": "sm", "to": "water", "weight": 2.61, "width": 1.9575}, {"from": "sm", "to": "fgb", "weight": 5.62, "width": 4.215}, {"from": "sm", "to": "video", "weight": 2.04, "width": 1.53}, {"from": "sm", "to": "experiment", "weight": 3.48, "width": 2.61}, {"from": "sm", "to": "inspection", "weight": 2.34, "width": 1.755}, {"from": "sm", "to": "photo", "weight": 2.06, "width": 1.545}, {"from": "sm", "to": "tagup", "weight": 4.34, "width": 3.255}, {"from": "sm", "to": "specialists", "weight": 2.5100000000000002, "width": 1.8824999999999998}, {"from": "sm", "to": "activation", "weight": 4.03, "width": 3.0225}, {"from": "sm", "to": "dc1", "weight": 2.06, "width": 1.545}, {"from": "sm", "to": "prep", "weight": 2.12, "width": 1.5899999999999999}, {"from": "sm", "to": "tv", "weight": 5.71, "width": 4.2825}, {"from": "sm", "to": "iss", "weight": 5.66, "width": 4.245}, {"from": "sm", "to": "progress", "weight": 4.22, "width": 3.165}, {"from": "sm", "to": "mcc", "weight": 4.41, "width": 3.3074999999999997}, {"from": "sampling", "to": "water", "weight": 2.41, "width": 1.8074999999999999}, {"from": "fan", "to": "cleaning", "weight": 5.76, "width": 4.32}, {"from": "fan", "to": "fgb", "weight": 2.88, "width": 2.16}, {"from": "cleaning", "to": "fgb", "weight": 5.53, "width": 4.1475}, {"from": "cleaning", "to": "filter", "weight": 2.23, "width": 1.6724999999999999}, {"from": "cleaning", "to": "dc1", "weight": 2.23, "width": 1.6724999999999999}, {"from": "maintenance", "to": "\u0441\u043e\u0436", "weight": 4.86, "width": 3.645}, {"from": "maintenance", "to": "fgb", "weight": 2.99, "width": 2.2424999999999997}, {"from": "comm", "to": "config", "weight": 7.29, "width": 5.467499999999999}, {"from": "comm", "to": "reconfig", "weight": 2.9, "width": 2.175}, {"from": "comm", "to": "check", "weight": 3.09, "width": 2.3175}, {"from": "comm", "to": "soyuz", "weight": 2.0300000000000002, "width": 1.5225}, {"from": "config", "to": "reconfig", "weight": 11.290000000000001, "width": 8.4675}, {"from": "config", "to": "soyuz", "weight": 2.04, "width": 1.53}, {"from": "test", "to": "tagup", "weight": 3.15, "width": 2.3625}, {"from": "test", "to": "specialists", "weight": 2.13, "width": 1.5975}, {"from": "test", "to": "tv", "weight": 3.06, "width": 2.295}, {"from": "check", "to": "lab", "weight": 2.29, "width": 1.7175}, {"from": "check", "to": "status", "weight": 10.5, "width": 7.875}, {"from": "check", "to": "payload", "weight": 5.15, "width": 3.8625}, {"from": "check", "to": "soyuz", "weight": 2.41, "width": 1.8074999999999999}, {"from": "check", "to": "tagup", "weight": 2.49, "width": 1.8675}, {"from": "water", "to": "tank", "weight": 4.7700000000000005, "width": 3.5774999999999997}, {"from": "water", "to": "progress", "weight": 3.0300000000000002, "width": 2.2725}, {"from": "icv", "to": "battery", "weight": 2.08, "width": 1.56}, {"from": "battery", "to": "charge", "weight": 9.870000000000001, "width": 7.4025}, {"from": "battery", "to": "start", "weight": 3.7600000000000002, "width": 2.82}, {"from": "status", "to": "payload", "weight": 5.51, "width": 4.1325}, {"from": "charge", "to": "start", "weight": 4.16, "width": 3.12}, {"from": "video", "to": "photo", "weight": 3.7600000000000002, "width": 2.82}, {"from": "video", "to": "equipment", "weight": 4.07, "width": 3.0524999999999998}, {"from": "video", "to": "stow", "weight": 2.5500000000000003, "width": 1.9124999999999999}, {"from": "video", "to": "exercise", "weight": 2.74, "width": 2.0549999999999997}, {"from": "video", "to": "tv", "weight": 4.32, "width": 3.2399999999999998}, {"from": "review", "to": "procedure", "weight": 4.8500000000000005, "width": 3.6374999999999997}, {"from": "experiment", "to": "start", "weight": 2.09, "width": 1.5675}, {"from": "experiment", "to": "photo", "weight": 2.04, "width": 1.53}, {"from": "experiment", "to": "tagup", "weight": 6.9, "width": 5.175}, {"from": "experiment", "to": "specialists", "weight": 5.46, "width": 4.095}, {"from": "inspection", "to": "laptop", "weight": 2.5100000000000002, "width": 1.8824999999999998}, {"from": "inspection", "to": "morning", "weight": 5.99, "width": 4.4925}, {"from": "laptop", "to": "morning", "weight": 2.27, "width": 1.7025}, {"from": "laptop", "to": "activation", "weight": 3.09, "width": 2.3175}, {"from": "tank", "to": "progress", "weight": 3.41, "width": 2.5575}, {"from": "soyuz", "to": "activation", "weight": 2.56, "width": 1.92}, {"from": "soyuz", "to": "return", "weight": 2.59, "width": 1.9425}, {"from": "replacement", "to": "filter", "weight": 2.75, "width": 2.0625}, {"from": "bag", "to": "filter", "weight": 2.38, "width": 1.785}, {"from": "bag", "to": "ims", "weight": 2.14, "width": 1.605}, {"from": "start", "to": "regeneration", "weight": 2.5500000000000003, "width": 1.9124999999999999}, {"from": "start", "to": "cartridge", "weight": 2.2, "width": 1.65}, {"from": "start", "to": "\u0431\u043c\u043f", "weight": 2.15, "width": 1.6125}, {"from": "start", "to": "iss", "weight": 4.38, "width": 3.2849999999999997}, {"from": "start", "to": "progress", "weight": 3.92, "width": 2.94}, {"from": "start", "to": "repress", "weight": 4.0, "width": 3.0}, {"from": "start", "to": "mcc", "weight": 5.16, "width": 3.8699999999999997}, {"from": "photo", "to": "tv", "weight": 2.49, "width": 1.8675}, {"from": "regeneration", "to": "cartridge", "weight": 4.14, "width": 3.105}, {"from": "regeneration", "to": "\u0431\u043c\u043f", "weight": 4.2, "width": 3.15}, {"from": "cartridge", "to": "\u0431\u043c\u043f", "weight": 3.4, "width": 2.55}, {"from": "tagup", "to": "specialists", "weight": 32.71, "width": 24.5325}, {"from": "tagup", "to": "activation", "weight": 2.02, "width": 1.515}, {"from": "tagup", "to": "installation", "weight": 2.45, "width": 1.8375}, {"from": "tagup", "to": "prep", "weight": 3.1, "width": 2.3249999999999997}, {"from": "tagup", "to": "tv", "weight": 2.44, "width": 1.8299999999999998}, {"from": "tagup", "to": "iss", "weight": 4.4, "width": 3.3}, {"from": "preparation", "to": "prep", "weight": 12.75, "width": 9.5625}, {"from": "equipment", "to": "prep", "weight": 3.3200000000000003, "width": 2.4899999999999998}, {"from": "equipment", "to": "stow", "weight": 8.0, "width": 6.0}, {"from": "equipment", "to": "exercise", "weight": 2.12, "width": 1.5899999999999999}, {"from": "equipment", "to": "tv", "weight": 2.42, "width": 1.815}, {"from": "prep", "to": "return", "weight": 5.39, "width": 4.0424999999999995}, {"from": "prep", "to": "tv", "weight": 3.68, "width": 2.76}, {"from": "stow", "to": "ims", "weight": 3.34, "width": 2.505}, {"from": "stow", "to": "progress", "weight": 3.2800000000000002, "width": 2.46}, {"from": "exercise", "to": "physical", "weight": 26.16, "width": 19.62}, {"from": "exercise", "to": "day", "weight": 17.76, "width": 13.32}, {"from": "exercise", "to": "tvis", "weight": 9.9, "width": 7.425}, {"from": "exercise", "to": "tv", "weight": 10.02, "width": 7.515}, {"from": "physical", "to": "day", "weight": 14.38, "width": 10.785}, {"from": "physical", "to": "tvis", "weight": 7.11, "width": 5.3325}, {"from": "physical", "to": "tv", "weight": 7.12, "width": 5.34}, {"from": "day", "to": "tvis", "weight": 3.13, "width": 2.3474999999999997}, {"from": "day", "to": "tv", "weight": 3.84, "width": 2.88}, {"from": "tvis", "to": "tv", "weight": 19.490000000000002, "width": 14.6175}, {"from": "ims", "to": "progress", "weight": 6.94, "width": 5.205}, {"from": "collection", "to": "hrf", "weight": 3.38, "width": 2.5349999999999997}, {"from": "collection", "to": "blood", "weight": 3.39, "width": 2.5425}, {"from": "collection", "to": "urine", "weight": 7.8, "width": 5.85}, {"from": "hrf", "to": "blood", "weight": 2.74, "width": 2.0549999999999997}, {"from": "hrf", "to": "urine", "weight": 3.34, "width": 2.505}, {"from": "tv", "to": "kuband", "weight": 2.98, "width": 2.235}, {"from": "tv", "to": "iss", "weight": 4.45, "width": 3.3375}, {"from": "tv", "to": "mcc", "weight": 3.83, "width": 2.8725}, {"from": "iss", "to": "progress", "weight": 9.84, "width": 7.38}, {"from": "iss", "to": "repress", "weight": 9.64, "width": 7.2299999999999995}, {"from": "iss", "to": "mcc", "weight": 8.950000000000001, "width": 6.7124999999999995}, {"from": "progress", "to": "repress", "weight": 9.4, "width": 7.05}, {"from": "progress", "to": "mcc", "weight": 6.03, "width": 4.5225}, {"from": "repress", "to": "mcc", "weight": 5.21, "width": 3.9074999999999998}]);
+
+        // adding nodes and edges to the graph
+        data = {nodes: nodes, edges: edges};
+
+        var options = {"nodes": {"font": {"strokeWidth": 15}}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -28728, "centralGravity": 7.5, "avoidOverlap": 0.9}, "minVelocity": 0.75}};
+        
+        
+
+        
+
+        network = new vis.Network(container, data, options);
+
+        
+
+
+        
+        network.on("stabilizationProgress", function(params) {
+      		document.getElementById('loadingBar').removeAttribute("style");
+	        var maxWidth = 496;
+	        var minWidth = 20;
+	        var widthFactor = params.iterations/params.total;
+	        var width = Math.max(minWidth,maxWidth * widthFactor);
+
+	        document.getElementById('bar').style.width = width + 'px';
+	        document.getElementById('text').innerHTML = Math.round(widthFactor*100) + '%';
+	    });
+	    network.once("stabilizationIterationsDone", function() {
+	        document.getElementById('text').innerHTML = '100%';
+	        document.getElementById('bar').style.width = '496px';
+	        document.getElementById('loadingBar').style.opacity = 0;
+	        // really clean the dom element
+	        setTimeout(function () {document.getElementById('loadingBar').style.display = 'none';}, 500);
+	    });
+        
+
+        return network;
+
+    }
+
+    drawGraph();
+
+</script>
+</body>
+</html>
